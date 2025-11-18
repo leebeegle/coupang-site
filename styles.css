@@ -399,7 +399,6 @@ a {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-
 /* 네온 리스트 스타일 */
 .post-list {
   list-style: none;
@@ -469,29 +468,6 @@ a {
   opacity: 0.9;
 }
 
-/* 반응형 */
-@media (max-width: 768px) {
-  body {
-    padding: 20px 12px 28px;
-  }
-
-  .site-header {
-    padding: 18px 18px 16px;
-  }
-
-  .post-info {
-    padding: 18px 18px 16px;
-  }
-
-  .recent-posts {
-    margin-top: 12px;
-  }
-
-  .content {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ===== 메인 페이지: 카드 그리드 ===== */
 .post-grid {
   margin-top: 24px;
@@ -531,7 +507,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  flex: 1; /* 카드 안에서 내용 영역이 남는 높이를 다 먹게 */
+  flex: 1;
 }
 
 .post-card-title {
@@ -548,7 +524,7 @@ a {
 
 /* 카드 안의 "최저가 보러가기" 버튼 */
 .post-card-link {
-  margin-top: auto;  /* 🔹 이게 핵심: 위쪽 공간을 다 밀어내서 맨 아래로 */
+  margin-top: auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -571,10 +547,88 @@ a {
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.7);
 }
 
-/* 모바일에서 한 줄에 1~2개 */
+/* ───────────── 반응형 ───────────── */
+
+/* 태블릿 이하 (지금 것도 살짝 모바일 쪽으로 조정) */
 @media (max-width: 768px) {
+  body {
+    padding: 20px 12px 28px;
+  }
+
+  .site-header {
+    padding: 18px 18px 16px;
+    border-radius: 20px;
+  }
+
+  .post-info {
+    padding: 18px 18px 16px;
+    border-radius: 18px;
+  }
+
+  .recent-posts {
+    margin-top: 12px;
+    border-radius: 18px;
+  }
+
   .post-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 14px;
+  }
+}
+
+/* 작은 모바일 (완전 폰 화면 느낌용) */
+@media (max-width: 480px) {
+  body {
+    padding: 16px 10px 24px;
+  }
+
+  .site-header h1 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .post-info {
+    padding: 14px 14px 12px;
+  }
+
+  .post-desc,
+  .product-desc {
+    font-size: 12px;
+  }
+
+  .product-card {
+    padding: 10px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .product-card img {
+    aspect-ratio: 4 / 3;
+  }
+
+  /* 메인 카드 한 줄에 1개 */
+  .post-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .post-card {
+    border-radius: 16px;
+  }
+
+  .post-card-title {
+    font-size: 14px;
+  }
+
+  .post-card-link {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+
+  .category-chip {
+    font-size: 11px;
+    padding: 5px 10px;
   }
 }

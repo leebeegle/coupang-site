@@ -131,7 +131,7 @@ a {
   }
 }
 
-/* 포스트 정보 카드 */
+/* 포스트 정보 카드 (상세 상단) */
 .post-info {
   background: var(--card-bg);
   border-radius: var(--radius-xl);
@@ -215,7 +215,7 @@ a {
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.6);
 }
 
-/* 상품 그리드 */
+/* 상품 그리드 (상세 페이지) */
 .product-grid {
   margin-top: 24px;
   display: grid;
@@ -368,11 +368,11 @@ a {
   padding: 6px 2px 8px;
   margin: 0 2px;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* 파이어폭스 */
+  scrollbar-width: none;
 }
 
 .category-bar::-webkit-scrollbar {
-  display: none; /* 크롬, 사파리 스크롤바 숨기기 */
+  display: none;
 }
 
 .category-chip {
@@ -399,7 +399,7 @@ a {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-/* 네온 리스트 스타일 */
+/* 네온 리스트 스타일 (최근 글 리스트 등) */
 .post-list {
   list-style: none;
   margin: 0;
@@ -472,7 +472,8 @@ a {
 .post-grid {
   margin-top: 24px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* 기본: 넓은 화면에서는 3열까지 자동 */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
@@ -549,19 +550,19 @@ a {
 
 /* ───────────── 반응형 ───────────── */
 
-/* 태블릿 이하 (지금 것도 살짝 모바일 쪽으로 조정) */
-@media (max-width: 768px) {
+/* 태블릿(대략 600~900px) 정도에서 2열 느낌 */
+@media (max-width: 900px) {
   body {
-    padding: 20px 12px 28px;
+    padding: 24px 14px 32px;
   }
 
   .site-header {
-    padding: 18px 18px 16px;
+    padding: 20px 20px 18px;
     border-radius: 20px;
   }
 
   .post-info {
-    padding: 18px 18px 16px;
+    padding: 20px 20px 18px;
     border-radius: 18px;
   }
 
@@ -571,15 +572,15 @@ a {
   }
 
   .post-grid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
   }
 }
 
-/* 작은 모바일 (완전 폰 화면 느낌용) */
-@media (max-width: 480px) {
+/* 작은 모바일 (600px 이하) → 무조건 한 줄에 1개 */
+@media (max-width: 600px) {
   body {
-    padding: 16px 10px 24px;
+    padding: 18px 10px 24px;
   }
 
   .site-header h1 {
@@ -608,9 +609,9 @@ a {
     aspect-ratio: 4 / 3;
   }
 
-  /* 메인 카드 한 줄에 1개 */
+  /* 🔥 메인 카드 한 줄에 1개 (폰) */
   .post-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 12px;
   }
 

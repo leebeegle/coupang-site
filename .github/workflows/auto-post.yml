@@ -1,0 +1,44 @@
+name: Coupang Auto Posting
+
+on:
+  schedule:
+    - cron: "0 17 * * *"   # 02:00 KST
+    - cron: "0 21 * * *"   # 06:00 KST
+    - cron: "0 1 * * *"    # 10:00 KST
+    - cron: "0 5 * * *"    # 14:00 KST
+    - cron: "0 9 * * *"    # 18:00 KST
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Set env
+        run: |
+          echo "COUPANG_ACCESS_KEY=${{ secrets.COUPANG_ACCESS_KEY }}" >> .env
+          echo "COUPANG_SECRET_KEY=${{ secrets.COUPANG_SECRET_KEY }}" >> .env
+
+      - name: Run daily generator
+        run: node dailyKeywords.js
+
+      - name: Run HTML generator
+        run: node generate.js
+
+      - name: Firebase Deploy
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

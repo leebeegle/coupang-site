@@ -3,7 +3,7 @@ name: Auto Generate and Deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 0,5,10,15,20 * * *'
+    - cron: '0 0,5,10,15,20 * * *'
 
 jobs:
   build-and-deploy:

@@ -45,8 +45,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
-          projectId: coupang-auto-site # Firebase 프로젝트 ID
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} # 1단계에서 등록한 Firebase 토큰 사용
+          projectId: 'coupang-auto-site' # Firebase 프로젝트 ID

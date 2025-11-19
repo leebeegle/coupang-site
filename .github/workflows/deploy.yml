@@ -50,4 +50,3 @@ jobs:
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} # 1단계에서 등록한 Firebase 토큰 사용
-

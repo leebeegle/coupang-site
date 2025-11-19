@@ -1,29 +1,25 @@
 name: Auto Generate and Deploy
 
 on:
-  # 1. 스케줄에 따라 자동 실행
-  schedule:
-    # UTC 기준 매일 0시, 5시, 10시, 15시, 20시에 실행 (한국 시간: 오전 9시, 오후 2시, 저녁 7시, 밤 12시, 새벽 5시)
-    - cron: '0 0,5,10,15,20 * * *'
-  
-  # 2. 수동으로 실행할 수 있도록 버튼 추가
   workflow_dispatch:
+  schedule:
+    - cron: '20 0,5,10,15,20 * * *'
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest # 가상 컴퓨터 환경: 우분투 최신 버전
+    runs-on: ubuntu-latest
 
     steps:
       # 1. 저장소 코드 가져오기
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Node.js 환경 설정 (v20 사용)  ← 여기만 18 → 20 으로 변경
+      # 2. Node.js 환경 설정 (v20 사용)
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm' # npm 의존성 캐싱으로 속도 향상
+          cache: 'npm'
 
       # 3. 프로젝트 의존성 설치
       - name: Install dependencies
@@ -47,4 +43,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
-          projectId: 'coupang-auto-site' # Firebase 프로젝트 ID
+          projectId: 'coupang-auto-site'

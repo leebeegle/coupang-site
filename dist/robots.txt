@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shop.friendstoktok.co.kr/sitemap_shop.xml
+Sitemap: https://aurora.friendstoktok.co.kr/sitemap_aurora.xml
+Sitemap: https://meteor.friendstoktok.co.kr/sitemap_meteor.xml
+Sitemap: https://galaxy.friendstoktok.co.kr/sitemap_galaxy.xml
+Sitemap: https://nebula.friendstoktok.co.kr/sitemap_nebula.xml
+Sitemap: https://comet.friendstoktok.co.kr/sitemap_comet.xml
+Sitemap: https://orbit.friendstoktok.co.kr/sitemap_orbit.xml
+Sitemap: https://saturn.friendstoktok.co.kr/sitemap_saturn.xml
+Sitemap: https://jupiter.friendstoktok.co.kr/sitemap_jupiter.xml
+Sitemap: https://venus.friendstoktok.co.kr/sitemap_venus.xml
+Sitemap: https://mercury.friendstoktok.co.kr/sitemap_mercury.xml
+Sitemap: https://eclipse.friendstoktok.co.kr/sitemap_eclipse.xml
+Sitemap: https://nova.friendstoktok.co.kr/sitemap_nova.xml
+Sitemap: https://cosmos.friendstoktok.co.kr/sitemap_cosmos.xml
+Sitemap: https://pluto.friendstoktok.co.kr/sitemap_pluto.xml
+Sitemap: https://rocket.friendstoktok.co.kr/sitemap_rocket.xml
+Sitemap: https://apollo.friendstoktok.co.kr/sitemap_apollo.xml
+Sitemap: https://luna.friendstoktok.co.kr/sitemap_luna.xml
+Sitemap: https://astro.friendstoktok.co.kr/sitemap_astro.xml
+Sitemap: https://stella.friendstoktok.co.kr/sitemap_stella.xml
+Sitemap: https://solaris.friendstoktok.co.kr/sitemap_solaris.xml

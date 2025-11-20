@@ -9,7 +9,8 @@ const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'ut
 const sandbox = {
   window: {
     location: { hostname: "shop.friendstoktok.co.kr" } // 기본값으로 아무 도메인이나 넣어준다.
-  }
+  },
+  addEventListener: () => {}, // 🔥 해결: 가짜 addEventListener 함수 추가
 };
 vm.createContext(sandbox);
 vm.runInContext(siteConfigRaw, sandbox);

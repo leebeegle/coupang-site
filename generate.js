@@ -1,5 +1,5 @@
 // generate.js
-const fs = require("fs");
+const fs = require('fs');
 const path = require("path");
 const vm = require('vm');
 
@@ -10,7 +10,9 @@ const sandbox = {
   window: {
     location: { hostname: "shop.friendstoktok.co.kr" } // 기본값으로 아무 도메인이나 넣어준다.
   },
-  addEventListener: () => {}, // 🔥 해결: 가짜 addEventListener 함수 추가
+  // 🔥 해결: Node.js 환경에서 브라우저 전용 함수 실행 오류를 막기 위한 가짜 함수
+  addEventListener: () => {},
+  document: { head: { appendChild: () => {} }, body: { setAttribute: () => {} }, querySelector: () => null }
 };
 vm.createContext(sandbox);
 vm.runInContext(siteConfigRaw, sandbox);
@@ -18,23 +20,12 @@ const domainMap = sandbox.window.__SITE_INFO__.domainMap;
 const TOTAL_SITES = sandbox.window.__SITE_INFO__.totalSites;
 
 
-// � dist 폴더(최종 배포용 폴더) 설정
+// dist 폴더(최종 배포용 폴더) 설정
 const distDir = path.join(__dirname, "dist");
 if (fs.existsSync(distDir)) {
   fs.rmSync(distDir, { recursive: true, force: true });
 }
 fs.mkdirSync(distDir, { recursive: true });
-
-// 🔹 데이터 로드
-const dataPath = path.join(__dirname, "postsData.json");
-const raw = fs.readFileSync(dataPath, "utf-8");
-const posts = JSON.parse(raw);
-
-// 🔹 dist/posts 폴더 설정
-const postsDir = path.join(distDir, "posts");
-if (!fs.existsSync(postsDir)) {
-  fs.mkdirSync(postsDir, { recursive: true });
-}
 
 // 상세 페이지
 function buildPostHtml(post, siteInfo) {
@@ -123,7 +114,7 @@ function buildPostHtml(post, siteInfo) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${post.title}</title>
-  {/* 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) */}
+  <!-- 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) -->
   <meta name="description" content="${post.description}" />
   <meta property="og:title" content="${post.title}" />
   <meta property="og:description" content="${post.description}" />
@@ -131,7 +122,7 @@ function buildPostHtml(post, siteInfo) {
   <meta property="og:url" content="https://${siteInfo.id}.friendstoktok.co.kr/posts/${post.slug}.html" />
   <meta property="og:site_name" content="${siteLabel}" />
   <meta property="og:type" content="website" />
-  <script type="application/ld+json">${JSON.stringify(schemaData)}</script>
+  <script type="application/ld+json">${JSON.stringify(schemaData, null, 2)}</script>
   <!-- dist/posts/xxx.html 기준으로 상위 폴더의 styles.css -->
   <link rel="stylesheet" href="../styles.css" />
 </head>
@@ -145,12 +136,7 @@ function buildPostHtml(post, siteInfo) {
     <section class="post-info">
       <span class="badge">가격 비교</span>
       <h2>${post.title}</h2>
-      <p class="post-desc">${post.description}</p>
-
-      <!-- 🔥 여기에 태그 추가됨 -->
-      <p class="post-tags">
-        ${tagsHtml}
-      </p>
+      <p class="post-desc">${post.description}</p>      
     </section>
 
     <section class="product-grid">
@@ -171,7 +157,7 @@ function buildIndexHtml(posts, siteInfo) {
   // 2. 각 사이트의 고유 정보(label, id)를 사용하도록 수정
   // --------------------------------------------------
   const siteLabel = siteInfo.label;
-  const sorted = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
+  const sortedPosts = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   // 🔹 카테고리 목록 만들기
   const categoriesSet = new Set(
@@ -190,7 +176,7 @@ function buildIndexHtml(posts, siteInfo) {
     .join("\n");
 
   // 🔹 각 카드에 data-post-idx 붙여서 "이 글이 리스트에서 몇 번째인지" 정보 저장
-  const cardsHtml = sorted
+  const cardsHtml = sortedPosts
     .map((p, idx) => {
       const firstProduct = (p.products || [])[0] || {};
       const thumb =
@@ -201,7 +187,7 @@ function buildIndexHtml(posts, siteInfo) {
       const category = p.category || "기타";
 
       return `
-      <article class="post-card" data-category="${category}" data-post-idx="${idx}">
+      <article class="post-card" data-category="${category}">
         <img src="${thumb}" alt="${title}" />
         <div class="post-card-body">
           <h2 class="post-card-title">${title}</h2>
@@ -220,7 +206,7 @@ function buildIndexHtml(posts, siteInfo) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>오늘의 쇼핑 추천</title>
-  {/* 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) */}
+  <!-- 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) -->
   <meta name="description" content="AI가 추천하는 오늘의 쇼핑 아이템! 매일 업데이트되는 인기 상품들을 만나보세요." />
   <meta property="og:title" content="${siteLabel}" />
   <meta property="og:description" content="AI가 추천하는 오늘의 쇼핑 아이템! 매일 업데이트되는 인기 상품들을 만나보세요." />
@@ -284,11 +270,50 @@ function buildIndexHtml(posts, siteInfo) {
 </html>`;
 }
 
+function generateRobotsTxt(siteInfo) {
+  const sitemapUrl = `https://${siteInfo.id}.friendstoktok.co.kr/sitemap.xml`;
+  const content = `User-agent: *\nAllow: /\n\nSitemap: ${sitemapUrl}`;
+  return content;
+}
+
+function generateSitemap(sitePosts, siteInfo) {
+  const baseUrl = `https://${siteInfo.id}.friendstoktok.co.kr`;
+  const today = new Date().toISOString().split("T")[0];
+
+  const urls = [{
+    loc: `${baseUrl}/`,
+    lastmod: today,
+    changefreq: "daily",
+    priority: "1.0",
+  }];
+
+  sitePosts.forEach(post => {
+    urls.push({
+      loc: `${baseUrl}/posts/${post.slug}.html`,
+      lastmod: post.date,
+      changefreq: "weekly",
+      priority: "0.8",
+    });
+  });
+
+  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${urls.map(url => `<url><loc>${url.loc}</loc><lastmod>${url.lastmod}</lastmod><changefreq>${url.changefreq}</changefreq><priority>${url.priority}</priority></url>`).join("\n  ")}
+</urlset>`;
+
+  return sitemapXml;
+}
+
 // --------------------------------------------------
 // 3. 각 도메인에 맞는 콘텐츠를 생성하여 빌드
 // --------------------------------------------------
+
+const dataPath = path.join(__dirname, "postsData.json");
+const raw = fs.readFileSync(dataPath, "utf-8");
+const allPosts = JSON.parse(raw);
+
 Object.values(domainMap).forEach(siteInfo => {
-  const siteDistDir = path.join(distDir, siteInfo.id);
+  const siteDistDir = distDir; // 🔥 이제 모든 사이트가 dist 루트에 빌드됩니다.
   const sitePostsDir = path.join(siteDistDir, 'posts');
   fs.mkdirSync(sitePostsDir, { recursive: true });
 
@@ -307,101 +332,30 @@ Object.values(domainMap).forEach(siteInfo => {
   const indexPath = path.join(siteDistDir, "index.html");
   fs.writeFileSync(indexPath, indexHtml, "utf-8");
 
+  // robots.txt 생성
+  const robotsTxt = generateRobotsTxt(siteInfo);
+  fs.writeFileSync(path.join(siteDistDir, 'robots.txt'), robotsTxt, 'utf-8');
+
+  // sitemap.xml 생성
+  const sitemapXml = generateSitemap(sitePosts, siteInfo);
+  fs.writeFileSync(path.join(siteDistDir, 'sitemap.xml'), sitemapXml, 'utf-8');
+
+  // siteConfig.js 복사
+  const srcConfig = path.join(__dirname, "siteConfig.js");
+  fs.copyFileSync(srcConfig, path.join(siteDistDir, "siteConfig.js"));
+
+  // styles.css 복사
+  const srcCss = path.join(__dirname, "styles.css");
+  fs.copyFileSync(srcCss, path.join(siteDistDir, "styles.css"));
+
+  // firebase.json 파일 생성
+  const firebaseJson = {
+    hosting: {
+      public: "dist",
+      rewrites: [{ source: "**", destination: "/index.html" }]
+    }
+  };
+  fs.writeFileSync(path.join(__dirname, 'firebase.json'), JSON.stringify(firebaseJson, null, 2), 'utf-8');
+
   console.log(`✅ ${siteInfo.id} 사이트 빌드 완료 (${sitePosts.length}개 포스트)`);
 });
-
-// 🔹 styles.css를 dist로 복사 (배포용)
-const srcCss = path.join(__dirname, "styles.css");
-const distCss = path.join(distDir, "styles.css");
-if (fs.existsSync(srcCss)) {
-  fs.copyFileSync(srcCss, distCss);
-  console.log("styles.css → dist/styles.css 복사 완료");
-} else {
-  console.warn("⚠ styles.css 파일을 찾을 수 없습니다.");
-}
-
-// 🔹 siteConfig.js도 dist로 복사
-const srcConfig = path.join(__dirname, "siteConfig.js");
-const distConfig = path.join(distDir, "siteConfig.js");
-if (fs.existsSync(srcConfig)) {
-  fs.copyFileSync(srcConfig, distConfig);
-  console.log("siteConfig.js → dist/siteConfig.js 복사 완료");
-} else {
-  console.warn("⚠ siteConfig.js 파일을 찾을 수 없습니다.");
-}
-
-// 🔥 SEO 개선: 사이트맵(sitemap.xml) 생성 함수
-function generateSitemaps(posts) {
-  const today = new Date().toISOString().split("T")[0];
-  
-  // siteConfig.js에서 도메인 목록 가져오기
-  const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'utf-8');
-  const domainMapMatch = siteConfigRaw.match(/const domainMap = ({[\s\S]*?});/);
-  if (!domainMapMatch) {
-    console.error('❌ siteConfig.js에서 domainMap을 찾을 수 없습니다.');
-    return;
-  }
-  // JSON이 아닌 JavaScript 객체이므로 eval을 사용해 파싱
-  const domainMap = eval('(' + domainMapMatch[1] + ')');
-  const domains = Object.keys(domainMap);
-
-  domains.forEach(domain => {
-    const siteIndex = domainMap[domain].index;
-    const baseUrl = `https://${domain}`;
-
-    // 1. 메인 페이지 URL 추가
-    const urls = [{
-      loc: `${baseUrl}/`,
-      lastmod: today,
-      changefreq: "daily",
-      priority: "1.0",
-    }];
-
-    // 2. 해당 도메인에 속하는 포스트만 필터링하여 URL 추가
-    posts.forEach((post, idx) => {
-      if (idx % domains.length === siteIndex) {
-        urls.push({
-          loc: `${baseUrl}/posts/${post.slug}.html`,
-          lastmod: post.date,
-          changefreq: "weekly",
-          priority: "0.8",
-        });
-      }
-    });
-
-    const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${urls.map(url => `<url><loc>${url.loc}</loc><lastmod>${url.lastmod}</lastmod><changefreq>${url.changefreq}</changefreq><priority>${url.priority}</priority></url>`).join("\n  ")}
-</urlset>`;
-
-    // 도메인별로 sitemap 파일 생성 (예: sitemap_shop.xml)
-    const sitemapFileName = `sitemap_${domainMap[domain].id}.xml`;
-    fs.writeFileSync(path.join(distDir, sitemapFileName), sitemapXml, "utf-8");
-    console.log(`✅ ${sitemapFileName} 생성 완료`);
-  });
-}
-
-// 🔥 SEO 개선: 사이트맵 생성 함수 호출
-generateSitemaps(posts);
-
-// 🔥 SEO 개선: robots.txt 파일 생성 함수 (static)
-function generateRobotsTxt() {
-  const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'utf-8');
-  const domainMapMatch = siteConfigRaw.match(/const domainMap = ({[\s\S]*?});/);
-  if (!domainMapMatch) return;
-  const domainMap = eval('(' + domainMapMatch[1] + ')');
-  const domains = Object.keys(domainMap);
-
-  let sitemapLinks = '';
-  domains.forEach(domain => {
-    const sitemapFileName = `sitemap_${domainMap[domain].id}.xml`;
-    sitemapLinks += `Sitemap: https://${domain}/${sitemapFileName}\n`;
-  });
-
-  const robotsTxtContent = `User-agent: *\nAllow: /\n\n${sitemapLinks}`;
-  fs.writeFileSync(path.join(distDir, "robots.txt"), robotsTxtContent, "utf-8");
-  console.log("✅ robots.txt 생성 완료");
-}
-
-// 🔥 SEO 개선: robots.txt 생성 함수 호출
-generateRobotsTxt();

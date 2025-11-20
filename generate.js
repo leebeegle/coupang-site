@@ -158,10 +158,10 @@ function buildIndexHtml(posts, siteInfo) {
   // --------------------------------------------------
   const siteLabel = siteInfo.label;
   const sortedPosts = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-
   // 🔹 카테고리 목록 만들기
+  // 🔥 버그 수정: 'sorted' -> 'sortedPosts' 로 변경
   const categoriesSet = new Set(
-    sorted.map((p) => (p.category ? p.category : "기타"))
+    sortedPosts.map((p) => (p.category ? p.category : "기타"))
   );
   const categories = Array.from(categoriesSet).sort((a, b) =>
     a.localeCompare(b, "ko")
@@ -318,7 +318,8 @@ Object.values(domainMap).forEach(siteInfo => {
   fs.mkdirSync(sitePostsDir, { recursive: true });
 
   // 해당 사이트에 속하는 포스트만 필터링
-  const sitePosts = posts.filter((post, idx) => (idx % TOTAL_SITES) === siteInfo.index);
+  // 🔥 버그 수정: 'posts' -> 'allPosts' 로 변경
+  const sitePosts = allPosts.filter((post, idx) => (idx % TOTAL_SITES) === siteInfo.index);
 
   // 상세 페이지들 생성
   sitePosts.forEach((post) => {

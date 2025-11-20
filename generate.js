@@ -115,7 +115,7 @@ function buildIndexHtml(posts) {
     })
     .join("\n");
 
-  // 🔹 각 카드에 data-post-idx 붙여서 "이 글이 리스트에서 몇 번째인지" 정보 저장
+  // 🔹 각 카드에 data-site-index 또는 data-post-idx를 붙여 소속 사이트 정보를 저장
   const cardsHtml = sorted
     .map((p, idx) => {
       const firstProduct = (p.products || [])[0] || {};
@@ -126,8 +126,13 @@ function buildIndexHtml(posts) {
       const date = p.date || "";
       const category = p.category || "기타";
 
+      // 🔥 신규 포스트는 siteIndex를, 옛날 포스트는 idx를 사용
+      const siteAttr = p.siteIndex !== undefined
+        ? `data-site-index="${p.siteIndex}"`
+        : `data-post-idx="${idx}"`;
+
       return `
-      <article class="post-card" data-category="${category}" data-post-idx="${idx}">
+      <article class="post-card" data-category="${category}" ${siteAttr}>
         <img src="${thumb}" alt="${title}" />
         <div class="post-card-body">
           <h2 class="post-card-title">${title}</h2>
@@ -209,9 +214,18 @@ function buildIndexHtml(posts) {
         ? HOST_INDEX_MAP[host]
         : 0;
 
+      // 🔥 신규/기존 포스트 호환을 위한 필터링 로직 수정
       cards.forEach(card => {
-        const idx = parseInt(card.getAttribute('data-post-idx'), 10) || 0;
-        const belongs = (idx % TOTAL_SITES) === siteIndex;
+        let belongs = false;
+        // 새로운 포스트: data-site-index 기준으로 판단
+        if (card.hasAttribute('data-site-index')) {
+          const postSiteIndex = parseInt(card.getAttribute('data-site-index'), 10);
+          belongs = postSiteIndex === siteIndex;
+        } else {
+          // 옛날 포스트: data-post-idx 기준으로 판단 (기존 로직)
+          const idx = parseInt(card.getAttribute('data-post-idx'), 10) || 0;
+          belongs = (idx % TOTAL_SITES) === siteIndex;
+        }
 
         if (!belongs) {
           card.dataset.hiddenBySite = "1";

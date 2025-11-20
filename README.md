@@ -137,3 +137,10 @@ git commit -m "docs: 키워드 목록 업데이트"
 # 3. GitHub 저장소로 최종 업로드합니다.
 git push origin main
 ```
+
+<!-- ✔ 선택 2) 로컬 수정은 버리고 GitHub 최신 코드만 받고 싶은 경우
+
+⚠ 로컬 변경 사라짐 (되돌릴 수 없음) -->
+
+git restore .
+git pull origin main

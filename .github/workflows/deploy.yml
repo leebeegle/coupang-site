@@ -11,6 +11,10 @@ on:
 
 jobs:
   build-and-deploy:
+    # 🔥 Git Push를 위한 쓰기 권한 부여
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest # 가상 컴퓨터 환경: 우분투 최신 버전
 
     steps:
@@ -64,4 +68,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
           channelId: live
           projectId: 'coupang-auto-site'
-
+          projectId: 'coupang-auto-site'

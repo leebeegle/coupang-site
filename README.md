@@ -144,3 +144,18 @@ git push origin main
 
 git restore .
 git pull origin main
+
+
+🎯 특정 파일만 Git에 올리는 명령어
+git add README.md
+git commit -m "update README"
+git push origin main
+
+
+설명하자면:
+
+git add README.md → 이 파일만 staging에 올림
+
+git commit -m "update README" → 이 파일만 포함된 커밋 생성
+
+git push origin main → 원격 저장소(main)으로 업로드

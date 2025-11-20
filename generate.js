@@ -1,13 +1,22 @@
 // generate.js
 const fs = require("fs");
 const path = require("path");
+const vm = require('vm');
+
+// siteConfig.js의 domainMap을 Node.js 환경에서 읽어오기 위한 설정
+const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'utf-8');
+const sandbox = { window: {} };
+vm.createContext(sandbox);
+vm.runInContext(siteConfigRaw, sandbox);
+const domainMap = sandbox.window.__SITE_INFO__.domainMap;
+const TOTAL_SITES = sandbox.window.__SITE_INFO__.totalSites;
+
 
 // � dist 폴더(최종 배포용 폴더) 설정
 const distDir = path.join(__dirname, "dist");
-// 🔥 인증 파일 유지를 위해 dist 폴더를 비우지 않도록 주석 처리
-// if (fs.existsSync(distDir)) {
-//   fs.rmSync(distDir, { recursive: true, force: true });
-// }
+if (fs.existsSync(distDir)) {
+  fs.rmSync(distDir, { recursive: true, force: true });
+}
 fs.mkdirSync(distDir, { recursive: true });
 
 // 🔹 데이터 로드
@@ -22,7 +31,11 @@ if (!fs.existsSync(postsDir)) {
 }
 
 // 상세 페이지
-function buildPostHtml(post) {
+function buildPostHtml(post, siteInfo) {
+  // --------------------------------------------------
+  // 1. 각 사이트의 고유 정보(label, id)를 사용하도록 수정
+  // --------------------------------------------------
+  const siteLabel = siteInfo.label;
   const productsHtml = (post.products || [])
     .map(
       (p) => `
@@ -56,18 +69,69 @@ function buildPostHtml(post) {
     .map((t) => `<span class="tag-item">#${t}</span>`)
     .join(" ");
 
+  // 2. 구조화된 데이터(Schema) 생성
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.description,
+    "datePublished": new Date(post.date).toISOString(),
+    "author": {
+      "@type": "Organization",
+      "name": siteLabel // 사이트별 이름 적용
+    },
+    "image": (post.products && post.products.length > 0) ? post.products[0].image : `https://${siteInfo.id}.friendstoktok.co.kr/og_image.jpg`,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://{__SITE_INFO__.id}.friendstoktok.co.kr/posts/${post.slug}.html`
+    },
+    "review": (post.products || []).map(p => ({
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Product",
+        "name": p.name,
+        "image": p.image,
+        "description": p.desc,
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "KRW",
+          "price": p.price.replace(/[^0-9]/g, ''),
+          "url": p.link
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": siteLabel // 사이트별 이름 적용
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5", // 예시 평점
+        "bestRating": "5"
+      }
+    }))
+  };
+
   return `<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${post.title}</title>
+  {/* 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) */}
+  <meta name="description" content="${post.description}" />
+  <meta property="og:title" content="${post.title}" />
+  <meta property="og:description" content="${post.description}" />
+  <meta property="og:image" content="${(post.products && post.products.length > 0) ? post.products[0].image : `https://${siteInfo.id}.friendstoktok.co.kr/og_image.jpg`}" />
+  <meta property="og:url" content="https://${siteInfo.id}.friendstoktok.co.kr/posts/${post.slug}.html" />
+  <meta property="og:site_name" content="${siteLabel}" />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">${JSON.stringify(schemaData)}</script>
   <!-- dist/posts/xxx.html 기준으로 상위 폴더의 styles.css -->
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <h1>${post.headline}</h1>
+    <h1>${siteLabel}</h1>
     <p class="subtitle">쿠팡파트너스 링크를 포함하고 있습니다.</p>
   </header>
 
@@ -96,7 +160,11 @@ function buildPostHtml(post) {
 }
 
 // 메인 index.html
-function buildIndexHtml(posts) {
+function buildIndexHtml(posts, siteInfo) {
+  // --------------------------------------------------
+  // 2. 각 사이트의 고유 정보(label, id)를 사용하도록 수정
+  // --------------------------------------------------
+  const siteLabel = siteInfo.label;
   const sorted = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
 
   // 🔹 카테고리 목록 만들기
@@ -146,6 +214,14 @@ function buildIndexHtml(posts) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>오늘의 쇼핑 추천</title>
+  {/* 1. 메타 태그 및 OG 태그 (사이트별 정보 동적 적용) */}
+  <meta name="description" content="AI가 추천하는 오늘의 쇼핑 아이템! 매일 업데이트되는 인기 상품들을 만나보세요." />
+  <meta property="og:title" content="${siteLabel}" />
+  <meta property="og:description" content="AI가 추천하는 오늘의 쇼핑 아이템! 매일 업데이트되는 인기 상품들을 만나보세요." />
+  <meta property="og:image" content="https://{__SITE_INFO__.id}.friendstoktok.co.kr/og_image.jpg" />
+  <meta property="og:url" content="https://${siteInfo.id}.friendstoktok.co.kr/" />
+  <meta property="og:site_name" content="${siteLabel}" />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -172,63 +248,14 @@ function buildIndexHtml(posts) {
   <!-- 🔹 여기서 siteConfig.js 먼저 불러오고 -->
   <script src="siteConfig.js"></script>
 
-  <!-- 🔹 사이트별 필터 + 카테고리 필터 -->
+  <!-- 🔹 카테고리 필터 스크립트 -->
   <script>
     (function() {
       const chips = Array.from(document.querySelectorAll('.category-chip'));
       const cards = Array.from(document.querySelectorAll('.post-card'));
 
-      // 🔹 1) 도메인 → 사이트 index 매핑 (21개 고정)
-      const HOST_INDEX_MAP = {
-        "shop.friendstoktok.co.kr":    0,
-        "aurora.friendstoktok.co.kr":  1,
-        "meteor.friendstoktok.co.kr":  2,
-        "galaxy.friendstoktok.co.kr":  3,
-        "nebula.friendstoktok.co.kr":  4,
-        "comet.friendstoktok.co.kr":   5,
-        "orbit.friendstoktok.co.kr":   6,
-        "saturn.friendstoktok.co.kr":  7,
-        "jupiter.friendstoktok.co.kr": 8,
-        "venus.friendstoktok.co.kr":   9,
-        "mercury.friendstoktok.co.kr": 10,
-        "eclipse.friendstoktok.co.kr": 11,
-        "nova.friendstoktok.co.kr":    12,
-        "cosmos.friendstoktok.co.kr":  13,
-        "pluto.friendstoktok.co.kr":   14,
-        "rocket.friendstoktok.co.kr":  15,
-        "apollo.friendstoktok.co.kr":  16,
-        "luna.friendstoktok.co.kr":    17,
-        "astro.friendstoktok.co.kr":   18,
-        "stella.friendstoktok.co.kr":  19,
-        "solaris.friendstoktok.co.kr": 20
-      };
-
-      const TOTAL_SITES = 21;
-      const host = window.location.hostname;
-      const siteIndex = HOST_INDEX_MAP.hasOwnProperty(host)
-        ? HOST_INDEX_MAP[host]
-        : 0;
-
-      cards.forEach(card => {
-        const idx = parseInt(card.getAttribute('data-post-idx'), 10) || 0;
-        const belongs = (idx % TOTAL_SITES) === siteIndex;
-
-        if (!belongs) {
-          card.dataset.hiddenBySite = "1";
-          card.style.display = 'none';
-        } else {
-          card.dataset.hiddenBySite = "0";
-          card.style.display = '';
-        }
-      });
-
       function applyFilter(category) {
         cards.forEach(card => {
-          const hiddenBySite = card.dataset.hiddenBySite === "1";
-          if (hiddenBySite) {
-            card.style.display = 'none';
-            return;
-          }
           const c = card.getAttribute('data-category') || '기타';
           if (category === '전체' || c === category) {
             card.style.display = '';
@@ -237,7 +264,6 @@ function buildIndexHtml(posts) {
           }
         });
       }
-
       chips.forEach(chip => {
         chip.addEventListener('click', () => {
           chips.forEach(c => c.classList.remove('active'));
@@ -252,19 +278,31 @@ function buildIndexHtml(posts) {
 </html>`;
 }
 
-// 상세 페이지들 생성
-posts.forEach((post) => {
-  const html = buildPostHtml(post);
-  const filePath = path.join(postsDir, `${post.slug}.html`);
-  fs.writeFileSync(filePath, html, "utf-8");
-  console.log(`생성됨: dist/posts/${post.slug}.html`);
-});
+// --------------------------------------------------
+// 3. 각 도메인에 맞는 콘텐츠를 생성하여 빌드
+// --------------------------------------------------
+Object.values(domainMap).forEach(siteInfo => {
+  const siteDistDir = path.join(distDir, siteInfo.id);
+  const sitePostsDir = path.join(siteDistDir, 'posts');
+  fs.mkdirSync(sitePostsDir, { recursive: true });
 
-// index.html 생성
-const indexHtml = buildIndexHtml(posts);
-const indexPath = path.join(distDir, "index.html");
-fs.writeFileSync(indexPath, indexHtml, "utf-8");
-console.log("dist/index.html 생성/업데이트 완료");
+  // 해당 사이트에 속하는 포스트만 필터링
+  const sitePosts = posts.filter((post, idx) => (idx % TOTAL_SITES) === siteInfo.index);
+
+  // 상세 페이지들 생성
+  sitePosts.forEach((post) => {
+    const html = buildPostHtml(post, siteInfo);
+    const filePath = path.join(sitePostsDir, `${post.slug}.html`);
+    fs.writeFileSync(filePath, html, "utf-8");
+  });
+
+  // index.html 생성
+  const indexHtml = buildIndexHtml(sitePosts, siteInfo);
+  const indexPath = path.join(siteDistDir, "index.html");
+  fs.writeFileSync(indexPath, indexHtml, "utf-8");
+
+  console.log(`✅ ${siteInfo.id} 사이트 빌드 완료 (${sitePosts.length}개 포스트)`);
+});
 
 // 🔹 styles.css를 dist로 복사 (배포용)
 const srcCss = path.join(__dirname, "styles.css");

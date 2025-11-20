@@ -63,11 +63,15 @@ async function main() {
   const postsDataPath = path.join(__dirname, "postsData.json");
   const raw = fs.readFileSync(postsDataPath, "utf-8");
   const posts = JSON.parse(raw);
+  const totalPosts = posts.length; // 🔥 기존 포스트 개수 확인
 
   const newPosts = [];
 
-  for (const { keyword, category } of selectedKeywords) {
-    console.log(`⏳ '${keyword}' 키워드로 상품 검색 중...`);
+  for (let i = 0; i < selectedKeywords.length; i++) { // 🔥 인덱스 사용을 위해 for 루프 변경
+    const { keyword, category } = selectedKeywords[i];
+    const siteIndex = (totalPosts + i) % KEYWORDS_TO_PROCESS; // 🔥 사이트 인덱스 계산
+
+    console.log(`⏳ '${keyword}' 키워드로 상품 검색 중... (사이트 인덱스: ${siteIndex})`);
     try {
       const products = await searchProducts(keyword, 10);
 
@@ -101,6 +105,7 @@ async function main() {
         description: `${keyword} 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.`,
         category: category,
         products: selectedProducts,
+        siteIndex: siteIndex, // 🔥 사이트 인덱스를 포스트 데이터에 저장
       };
 
       newPosts.push(newPost);

@@ -163,7 +163,7 @@ function buildIndexHtml(posts, siteInfo) {
   const categoriesSet = new Set(
     sortedPosts.map((p) => (p.category ? p.category : "기타"))
   );
-  const categories = Array.from(categoriesSet).sort((a, b) =>
+  const categories = Array.from(categoriesSet).sort((a, b) => 
     a.localeCompare(b, "ko")
   );
   categories.unshift("전체");

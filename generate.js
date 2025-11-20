@@ -313,7 +313,8 @@ const raw = fs.readFileSync(dataPath, "utf-8");
 const allPosts = JSON.parse(raw);
 
 Object.values(domainMap).forEach(siteInfo => {
-  const siteDistDir = distDir; // 🔥 이제 모든 사이트가 dist 루트에 빌드됩니다.
+  // 🔥 수정: 각 사이트별로 빌드 결과물을 저장할 고유한 폴더 경로를 생성합니다. (예: dist/shop, dist/aurora)
+  const siteDistDir = path.join(distDir, siteInfo.id);
   const sitePostsDir = path.join(siteDistDir, 'posts');
   fs.mkdirSync(sitePostsDir, { recursive: true });
 

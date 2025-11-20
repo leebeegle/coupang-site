@@ -8,10 +8,10 @@ const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'ut
 // 🔥 해결: Node.js 환경에는 window.location이 없으므로, 오류가 나지 않도록 가짜 객체를 만들어준다.
 const sandbox = {
   window: {
-    location: { hostname: "shop.friendstoktok.co.kr" } // 기본값으로 아무 도메인이나 넣어준다.
+    location: { hostname: "shop.friendstoktok.co.kr" }, // 기본값으로 아무 도메인이나 넣어준다.
+    // 🔥 해결: Node.js 환경에서 브라우저 전용 함수 실행 오류를 막기 위한 가짜 함수
+    addEventListener: () => {},
   },
-  // 🔥 해결: Node.js 환경에서 브라우저 전용 함수 실행 오류를 막기 위한 가짜 함수
-  addEventListener: () => {},
   document: { head: { appendChild: () => {} }, body: { setAttribute: () => {} }, querySelector: () => null }
 };
 vm.createContext(sandbox);

@@ -5,7 +5,12 @@ const vm = require('vm');
 
 // siteConfig.js의 domainMap을 Node.js 환경에서 읽어오기 위한 설정
 const siteConfigRaw = fs.readFileSync(path.join(__dirname, 'siteConfig.js'), 'utf-8');
-const sandbox = { window: {} };
+// 🔥 해결: Node.js 환경에는 window.location이 없으므로, 오류가 나지 않도록 가짜 객체를 만들어준다.
+const sandbox = {
+  window: {
+    location: { hostname: "shop.friendstoktok.co.kr" } // 기본값으로 아무 도메인이나 넣어준다.
+  }
+};
 vm.createContext(sandbox);
 vm.runInContext(siteConfigRaw, sandbox);
 const domainMap = sandbox.window.__SITE_INFO__.domainMap;

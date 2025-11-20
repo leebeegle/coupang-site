@@ -17514,5 +17514,933 @@
         "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9081812011&itemId=26746431672&vendorItemId=93717587659&traceid=V0-153-72043dac0f1cfa6d&clickBeacon=835d20a0-c605-11f0-94bb-ee43d93965bd%7E3&requestid=20251120203902938025889593&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
       }
     ]
+  },
+  {
+    "slug": "비비크림-2025-11-20",
+    "date": "2025-11-20",
+    "title": "비비크림 추천 상품 BEST 6",
+    "headline": "비비크림 가격 비교",
+    "description": "비비크림 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "지베르니 밀착 커버 리퀴드 파운데이션 30ml, 6개, 17호포슬린",
+        "price": "108,590원",
+        "desc": "지베르니 밀착 커버 리퀴드 파운데이션 30ml, 6개, 17호포슬린",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/67Ig4549wDKwrIwx65kaoV13ZaCi0sEaPjGDsJdEhy_9JdziVfeEnN8sF--6YUeY4R782KrxpDdyUozcjV9-ZE2PqIIt9p8SjgjS6AtToSp0h23kFMrvzbOxfyvi0JaEtpRTqgSTTcF6Sp1we2F42QS-cfWlwh4mEonOkO1RfzOmqeWbjr_OJPilM9mHNvEv3f0fKOnQtRFvbqJ0Vq5sOYEyJtj3bxrm22BonCNf013-quOhoRkuPU6-ch7hmf-q-PJm-UmYjNNDOd1l7LhjAq1XHZ-UFfEeS-U=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7344992433&itemId=25328391847&vendorItemId=92921051799&traceid=V0-153-e0f5e4bd3480788f&clickBeacon=7e796100-c607-11f0-a3f7-a9931d831104%7E3&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "비비크림 BB크림 쌩얼크림 메이크업 오래 지속됩니다",
+        "price": "10,800원",
+        "desc": "비비크림 BB크림 쌩얼크림 메이크업 오래 지속됩니다",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/KIxjhMJUeg9SdjobKIVMEYpP-9vbfILRx8DiWvzRhKtGsy_-4D3F8aFRSkhAMtvOctTtqRV2uCCqJUr1UeZOfMFYsq4kd4DQTCdYHqK6Q_zitqpJ-Jg2OoXytExwxAaCjRxa5UkIDiczyGmd3_b24RxjXFL0KtkD735i18oyPnBdbzsCUIHzHFBL6-SVER7Z0ANDsK1xaVyAmrh-Q-d29VXTcLWkcmNEc7GK7NBoq_fsSy-qAlYRHaMmUmwLDOhmTAel2fLjeoVLR0CgqTwxU_i8aVxUQ1AL5xQayl4ui0mmJg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8799157968&itemId=25619420793&vendorItemId=92609746063&traceid=V0-153-4cfe37058c19f915&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "미샤 M 초보양 비비크림 SPF30 PA++",
+        "price": "13,200원",
+        "desc": "미샤 M 초보양 비비크림 SPF30 PA++",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/xhYrkwdO9K8yO0tVxl46eTSfT5eq8tuYuVT7Hb7fiv8u1QXs_aK73oqprGgs_f9MDcVTS2f126LqjVHypbLPOy9OmJw20_8WH1o9mmsC9a4KPPSmWuMd1uMsFzOF0C9eg7kWYOvhFLZqpG_A-fXsiOXK6E9IsyQTP1Lvcoxyo-V7bFhdnGuPUsYnIHVotcVPV0rfzhcz0_fqXe0e5QLZ85DFo_NdMc_skKHxrgAlh_XGrFi6MRGJgyOb8hGzt4HKv6DVpyhzkyoNV9R_B38k1w==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=5856050815&itemId=10203804163&vendorItemId=77486302768&traceid=V0-153-b4f607407e00e3b7&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "지베르니 밀착 커버 파운데이션 30ml, 6개, 22C 로지 베이지",
+        "price": "108,590원",
+        "desc": "지베르니 밀착 커버 파운데이션 30ml, 6개, 22C 로지 베이지",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/TasXKwyf6hx-tKDPTRCIc0tuhtVmSdbArmd1ZWG67_bx9yio9N4tu8TMCdhqBjvTUEr4nbEN_FkSafPsU4nbAByJtxvIJ55lcB7vAmOGMQ5c0tWaIC98gs4SG2r6qeAbPc8u6kaXYUskrg8Z-xU7xRpdS5TuhnDhUlqdOP_fO5Lpj_k_hB0wWWSfqL6H8B8eqNVNhVxcO7WGNsfZ2ZfC7HpwRWVLG0hE1di0dVajhr7GsMG1Hd-PN2FKFN3Q0lyI8_m1Faris2uFRiidkgYx2VwxkWY9XIMl1lM=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7344992433&itemId=25336093558&vendorItemId=92921051549&traceid=V0-153-e0f5e4bd3480788f&clickBeacon=7e796100-c607-11f0-8caa-37dbe3ea838f%7E3&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "5중VC 쌩얼톤업 비비 크림  얼굴미백크림 톤업 파운데이션 쌩얼크림 BB크림",
+        "price": "11,800원",
+        "desc": "5중VC 쌩얼톤업 비비 크림  얼굴미백크림 톤업 파운데이션 쌩얼크림 BB크림",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/gl4Nf_D9ZrIMGXiegrn5hXpr-f3BuBXIMG2JjJ9899M_zuuH4fVyJY_kZvTDi1J_JA08KJF_bOMpuVWBQmTh9kmGqv5ict3GVs7oOhAPURpfr1d2RHZ5Jm-rQroAR7nXfC7X343pag2RVYNix81Lzz6_3aSlwexW50zT9apUkXAm9MdCfKyJyQWTEdMv0kVemvSVwCmQcY3cBXaf7TDBeoSohtw-kDHa0Ya9zx0ndFHqslIvbp73vvK5q0zEjFzjHF8pB3G-tcYcx2mSs7o3ttHW3F6FjqmGpO3FiSlCRVg=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9156484161&itemId=26967135607&vendorItemId=93936062711&traceid=V0-153-6c07ea139d008725&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "셀29 리페시브 블레미쉬 밤 에스테틱 재생 BB 비비크림, 2개, 30ml",
+        "price": "105,000원",
+        "desc": "셀29 리페시브 블레미쉬 밤 에스테틱 재생 BB 비비크림, 2개, 30ml",
+        "tag": "비비크림",
+        "image": "https://ads-partners.coupang.com/image1/NOGyfFfd9Z_v7uATNAbSiGGPvQT9y5KO4KZaP7oAnU0K4-OwFxZZNQ20Q7BfGtgSH7U5f4fyXiaiImOsIAUITHHwlsTmP2pESVTyZD_FwOLCJPmzWwGgVBPe_5h-Y7zav20GbhWCE55_C-nKBe4UW1Q712AdR2IXoqJU4zWX2AVjUGEIUI0wKZsZaBLqtv6pFiWddrSebCogSl9UuuF5dDSikVMLf1-q7YuHr1GIDhKpzg6ALbcYlQpw2TinIpRVNoGSZpweUDH-Ub7DjlxZ6HJyHrdcw5TKP9tpEB0KZmRYyiWYvA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8142910341&itemId=23142000500&vendorItemId=90174880183&traceid=V0-153-cdf0e322d98a9afb&clickBeacon=7e796100-c607-11f0-b5a7-9431d2665d38%7E3&requestid=20251120205313716053558769&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "헤드폰-2025-11-20",
+    "date": "2025-11-20",
+    "title": "헤드폰 추천 상품 BEST 6",
+    "headline": "헤드폰 가격 비교",
+    "description": "헤드폰 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "디지털가전",
+    "products": [
+      {
+        "name": "보스 QC 울트라 헤드폰 2세대 BOSE QC ULTRA HEADPHONES 2Gen, 데저트골드",
+        "price": "519,000원",
+        "desc": "보스 QC 울트라 헤드폰 2세대 BOSE QC ULTRA HEADPHONES 2Gen, 데저트골드",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/f76cK_5lyEENS6nQf8IsI1AXqfebElUtesWKZIycJZdUbJhlOU7J0b4hxLLnt-4PiWS0v7lNsLSBRfULvd8Ix_ADBlkbhNeTE8-GATgYOqu4RLG8c4o4Z9744dY6ekpL-1WbDCXRYRen3_KSev-FYo2o80bo3TJsWEz1bfSNTln-6VpAuyMUmcRPYibWSq3L1JEtm4TJN42j7jJocfBcURkRAtJHOXNS2Ifh8TsUWYrGQc30pozHJpoKoxXYXqyFDMtdq6PZX53YUzFLej1xHue51CflBIrzqA-hfdJ7Mc6_Uxv6VA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9153372586&itemId=27031472686&vendorItemId=94000013624&traceid=V0-153-867a14311f68e928&clickBeacon=7ea3a550-c607-11f0-897e-bcdc3e75bcec%7E3&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "QCY H2 PRO 블루투스 헤드셋",
+        "price": "24,500원",
+        "desc": "QCY H2 PRO 블루투스 헤드셋",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/7HI4WmyU6WXdyrJ87NKmMCnjZ21-wJcR1KWQ7X3SNyfnjV2mElOawgPU8AZ3mgxVCFz5mZeshY5yL_LcxMP3RIhQkNHWWyMtfFsEPFAnX2SPjI7I_ttX-oV2Uy8T2VezAUBG8ONQVozn8fWlLUuVHK25uhyd5MLTCEFovu8js6hwr9sLGLoeUKmr3qn1hPuTsHXyiTzViQoaz9Ptgk46WT0a8HXiXYe1yzdT6Y-nTLP5RWZcsDDzryxZbg10BVzxZV7Vdo_433m22KTfFix5IlZtjsDLFo-vmNfmBLpBW0KZACV6lPAGhR9r",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7576485480&itemId=19991452173&vendorItemId=87312457707&traceid=V0-153-e4a89aeae61f73a1&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "QCY H2 PRO 블루투스 헤드셋",
+        "price": "24,500원",
+        "desc": "QCY H2 PRO 블루투스 헤드셋",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/sKP27lMyeC1yQgpEsHem-8dHz_Rb1EQgbFcaLSDRfzLEZzbkkz-nMkfQXoHMYRMYF_uGZ_WNdCqeXJiXTm_0-Lpzo-CT4iHd3EOJZVSSPxpDhabDclqT6JPdAYO4SxuX5mqwNi_Xj_eSERQqWaUhcHcfHqM94WYwLjtC236gM2e6trkdhCHpBnwTrIXX32WPISoLC-Orl8CN4c81POfI2YjtzX-Lvfa-mJimw-LnclRTXqtL2MNjXjm-Z-EyHj7T5ZjyJ16agZti3E1V4ZSBTQ5wQHIXf1naLB3iUqwE-BRFp-RfeI7zYYfO",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7576485480&itemId=19991452176&vendorItemId=87348418144&traceid=V0-153-e4a89aeae61f73a1&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "보스 QC 울트라 헤드폰 2세대 BOSE QC ULTRA HEADPHONES 2Gen, 미드나잇바이올렛",
+        "price": "519,000원",
+        "desc": "보스 QC 울트라 헤드폰 2세대 BOSE QC ULTRA HEADPHONES 2Gen, 미드나잇바이올렛",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/uSBPXSxccDQCIETLuTr6lHYKLgU9tOezB5D5lb-raUtLVCeduDHbYE0wTpNIO0seA3x_VR4O-0gzywILTErNUbZ1WFL7-ieSRDsJyqTilCxJri_-f7AyHry2Y8g7gTYSH4GFZ5fitb1HMgeXqtuPt-JFHTsMaAjIJtqlkitZ-LwOJcGOHsvE3-AgOG78bvoAjTF6e_Ss3rb3YSpU4xEmFeDmlR-B57vrfWXdO4gN-9m8yOIFVYX1bbFUkyhUM1g2OlAxrbNAsaC42QCfWEi-K5UeygWV2Uu2nLmsyLGV1d2NthzKsF0=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9153372586&itemId=27030719906&vendorItemId=93999267828&traceid=V0-153-867a14311f68e928&clickBeacon=7ea3a550-c607-11f0-8aab-8647d45e0bd5%7E3&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "소니 스테레오 헤드폰",
+        "price": "24,370원",
+        "desc": "소니 스테레오 헤드폰",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/YlVFZkrI6HsqDGtWYrQ7JiIiFFko7tuJxuv6fIuV-CwC6r1VkZ3TNPnSxbQXP_6Sr1EQi0hOp5tId2IArasakgRxu32p_nGlyqHRyKDMYMaO07g-N4amApDm7HOqtC4xRbysNdLC-4MdXW7eW8bCwWK08PddUV6E9S7r1Q6Uok2WFRqd1q5byG57BELdQv4cRtxn67uW9-mOgTs-KKQYQs6GQGmoGAm_cWvjo8k7T3YTiRwHCsT3nJ87tqWbhEua0z01P2l8QI2ZQfng3KrP-g==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=66711075&itemId=224001844&vendorItemId=3544149381&traceid=V0-153-ee5638a69c53ca6d&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "낫싱 Nothing headphone (1) 노이즈 캔슬링 블루투스 헤드폰, 화이트",
+        "price": "399,000원",
+        "desc": "낫싱 Nothing headphone (1) 노이즈 캔슬링 블루투스 헤드폰, 화이트",
+        "tag": "헤드폰",
+        "image": "https://ads-partners.coupang.com/image1/mpOXInOPJaKllb3cmnrwXHJBXgDV-KG3rmnLN9SFumS0boX0pzOkWB3XdSL0qk1iafwnCYvsz9xTh8JQsuT6BtASfnF4m4f1oB2tR9vWfAExUD-7RLuchmNe4rb7GOqAQLqKukwp-NfdGJzRlRYAq0N5W4vX1EWqnn9Q6MJl2hS2MmNkSo4TMliGwIzXxaH68WMynWCfuLKoK5hwvrUFnLtnMB-hJFiE_IiGmvWshBzDHQQn7zn8ftHO8_yFNhJJBtC-KYz2lxqWknvPTWBu1YuRDv_1d3sUREhROaa8MAnHUkw=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8916058542&itemId=26050823842&vendorItemId=93032229002&traceid=V0-153-8f7ace2ca11e8d5b&clickBeacon=7ea3a550-c607-11f0-9904-cb900eccd1e3%7E3&requestid=20251120205314005137115162&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "공스킨-2025-11-20",
+    "date": "2025-11-20",
+    "title": "공스킨 추천 상품 BEST 6",
+    "headline": "공스킨 가격 비교",
+    "description": "공스킨 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "로다이브 어성초 9X 여드름 제로 앰플 피지 클렌징 3개, 3개, 150ml",
+        "price": "62,520원",
+        "desc": "로다이브 어성초 9X 여드름 제로 앰플 피지 클렌징 3개, 3개, 150ml",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/ymzIG40f3Pcgqwe2ytWWObZg653gXFbepD3W4NhSYWjMWgK_CE136SxIBylJGbIkq9hP9ZnpclXJrV_9gmMZJfF9Qm5XbBkJ0M40yopYkPfY_wKXNrpzOhJyeMgDa_aEelEaVIWJGpJDg0_94feyUZKXNNpx2IJpiHoGorRxMvB1wjEPkE9yR6Psb1CvU1Vt-W7_lI5B92ygONKFL4-hwpW2sp8g5L3AowuTKxBV3FbVFIYcZwd4B0rjOThzK1l976-n1bLywGdwd71FjdO0xVfgQ5KvaeCn5FYsLM-87e41lm9uJ7DP4hUHveABkw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8987556274&itemId=24357122837&vendorItemId=91372498112&traceid=V0-153-c9d348c628c6e3c6&clickBeacon=7ec70bd0-c607-11f0-b259-34bc4c540356%7E3&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "공스킨 어성초 비누",
+        "price": "10,270원",
+        "desc": "공스킨 어성초 비누",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/iTtbby6PLmfiI-iyibBSpGZveRIziQFlmlafCRgFlLd6p6AZzhN67-uNNfE0BorUdWTH5ywUJh4y8mPHlcReUEQWyjwGiLm775yxnTYZyrFKUZ7XVf8YSuwzYLiqdkMpq1uReWerR25wJ0C6uVSwEEaDNixy7snutXIKauxuihENCDzPPenVVaPGvD9LHJbk9Gz47cD0UEXpTs0dhj35RuVLKgPYkBcGgFsjg4kHoInE8Nmogvdfu8mwVWLMvz9PUQRyig6eEEmpHy8iMRzOTjk44sljPUqg3laevoN8",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7532179148&itemId=24057008735&vendorItemId=92514694526&traceid=V0-153-675296137b1d6bde&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "비타민 올인원 로션, 염증 잡티 탄력 미백 주름 집중케어, 하나로 끝내는 피부관리, 대량구매 답례품 문의",
+        "price": "16,050원",
+        "desc": "비타민 올인원 로션, 염증 잡티 탄력 미백 주름 집중케어, 하나로 끝내는 피부관리, 대량구매 답례품 문의",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/KUyJKVHpnJD2jsGgKZA1nGmKtmZncBEdVWyq5vzeC6qij0PI2WaqQ9QiLdDotkmWlCGVe10Y11pMSTCge1hl8kngSc7AjSbRUylqggtYKD1fpH6a3jhOsnjoMqKUuFaSwbG3vmLmEbeMFiWDE29oA_FWQvUoUV-vQGH7qvgvSnqrjkaGK2L8EbM3KXoKlwokJ-hilzHpSTYdXHzG1lu_vVgIH5aBf8ckbMnSoaB3QXI12r_R8X0trsh9SYf9LcYv9IO5Y6pk4tpIY4UqbDgcxv4ipVVoiVl9dqepHU_jLAC3",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7791124812&itemId=21455079854&vendorItemId=92531520422&traceid=V0-153-b1e3b4294ac569be&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "뤼산드 PDRN 연어 콜라겐 생성 재생 탄력 보습 수분 크림 핵폭탄 시너시 올인원 반반 젤 로션 세트, 1세트, 600ml",
+        "price": "57,170원",
+        "desc": "뤼산드 PDRN 연어 콜라겐 생성 재생 탄력 보습 수분 크림 핵폭탄 시너시 올인원 반반 젤 로션 세트, 1세트, 600ml",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/ysYN8YU-Elww3w76yjFDUY4c4JVst13Lbaa-1NmsteT1nFBQLE1VihpBs3TpZT-8YDvxWP8Aeck2hW79vG0UAoia4-BP8CoFXPdbx53YQwwf5ZAcSQEVP1ifg8f1fiWMmXsEix-rZiXfhlaDtEsUixrE5cUva1DYc9NFgzNkBXEiT-gu2ke-3qzS1_cn60fqXhWK2wv-ajwSTy5z9acF1Zu6bviFua1FnPRVO_hRQZgHcteoXrSvvR94b2AWCKBd1bqYreCJ5cJtF1EEwrnP3dJcVui6rTdCj59b8HCJb2DRdyetJGCL",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8891632980&itemId=25957586203&vendorItemId=91473215193&traceid=V0-153-b23a5109309cb5df&clickBeacon=7ec70bd0-c607-11f0-8d35-3a3ca167e0cb%7E3&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "공스킨 비타민 올인원 로션",
+        "price": "2,900원",
+        "desc": "공스킨 비타민 올인원 로션",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/eSL95S83KEYizK_-eey2RpXmzlMnHqIjAq45OUwJp7o3X01I9FxAeFOk9frvfd1NciUSzLiRvvyQ1Tyy8epXD98HzhJ4qLxwRHprJN6f5M9PjFwZuLHF69ur_2qPlVI-IICOvJUtjb2mluqCnOTMBcj_dpGQYG1ktgJVoXDNVBHDitgVOGKlNxQcSMVeNjNcX5QRblIpdIq7ow5qOxfbAIEhDrU2tZZ0RgR4nsrHzHZwVEMCh2fJKAlwI0UVrZkNVf99OK56kzcxEi7Q8YNexSraFYVJ-GYS3G-dBJymJxU=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7791124812&itemId=19807230290&vendorItemId=92187191563&traceid=V0-153-b1e3b4294ac569be&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "(아데노신 화장품) 공스킨 히알루론산 피부영양 동안 앰플",
+        "price": "13,980원",
+        "desc": "(아데노신 화장품) 공스킨 히알루론산 피부영양 동안 앰플",
+        "tag": "공스킨",
+        "image": "https://ads-partners.coupang.com/image1/6ynRRgAmtsGzkI_b670ZmEd_iYyPBrLYY1-xbpWNyE_jcK08vflTDV7gQIlk-vaUNUgntvfKm9n3jchlzns3BrPAgqPc_9vV43C10h1ZVPE_6a-tnQ801MaWJE4dz1uXjgdN5n-0k2T_f1ck8L-7aiAC7vFWALUx8yWGIuO9HLb9B2rMGYWzy9nVn393BhU2j2zl50qv9vSEGqF7jqy449EmuWHn1wzZ_J-YrKvnThIiconS_m4MUXl0oGqCLdRXpNJsgzW2PsVAUBpr16NBOyW3s9RBiXXut3G23kNee6SgOunH4plKRmX6VsB3shW4MbCq2vn2T9nH7218_MKItX0q",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8535269150&itemId=24708095619&vendorItemId=92219792654&traceid=V0-153-da85f024e6617b23&requestid=20251120205314237137115208&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "vdl파운데이션-2025-11-20",
+    "date": "2025-11-20",
+    "title": "vdl파운데이션 추천 상품 BEST 6",
+    "headline": "vdl파운데이션 가격 비교",
+    "description": "vdl파운데이션 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "지베르니 밀착 커버 파운데이션 30ml, 6개, 22C 로지 베이지",
+        "price": "108,590원",
+        "desc": "지베르니 밀착 커버 파운데이션 30ml, 6개, 22C 로지 베이지",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/wfg8JV2ykwPJStoFwSDYvTEsxW4-FXBZs_t_AHEngqotN6VMCq8hSQN2NDxRha5avR-ItT5TdbcMr-kfQ4u1nzfcN-C5r0cuo37hKdwna1uabImQuyhY-nZUBVD5By1fUSzxrBmxgcHWwMz5l2RGDLHnCOWTMIhDkhu4PkIL7DwXkJhu2dUFPPpf2hs5gan8MBprJDOVLYgESvd6rWWc1AHhIJlWuyswQOGG-cpRFS-C-qCRBWMLkU_bV0-_1bA5QZcj0Ywu62Pt-THKz64rxV4uJ3woWe-c1Yg=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7344992433&itemId=25336093558&vendorItemId=92921051549&traceid=V0-153-e0f5e4bd3480788f&clickBeacon=7eecbc40-c607-11f0-a1cb-9db8d598110d%7E3&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "브이디엘 커버 스테인 퍼펙팅 파운데이션 EX 30ml",
+        "price": "25,650원",
+        "desc": "브이디엘 커버 스테인 퍼펙팅 파운데이션 EX 30ml",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/NYhDmFjxc1Gd37uANazU32YnxZAjoBFYvnpsFZQPveemvfyKoOuw68gvTIpyMNGjRL4XR0fYvsAVWF3YyXSl_l06Hf8thcH92DFgY6OHhrHhDO3H8E-0AMYSl-cnwi32-4cgKHpwVWSfN2PFp8sEjkH4AuFkQ2TcmxFlSV2Z4eowwWzDCF1-5LSItdxlsWd2XQwDY87StGoW5hKELkJtKmZcR7phwu3IFfxSbE3A2xtucjcGTBGMY9vaNrQhkaaGbNfaAuTt24H7DXeM9FUF",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8834346105&itemId=25483976495&vendorItemId=91767847066&traceid=V0-153-bd35073bd2b90d3e&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "브이디엘 엑스퍼트 퍼펙트 핏 파운데이션 30ml",
+        "price": "18,940원",
+        "desc": "브이디엘 엑스퍼트 퍼펙트 핏 파운데이션 30ml",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/XlbJD3aO-rrNk-IJXpNn9ExuLEyaAqt0Zd4T1tQy5qFSdyC2_pH4VRSBTVCCuarTVbFzBPO86lhkuGV7Ly-SuyU1jC8op-T4p75U9DvGrQ1UDsXLvO_L8b72HMzGvz9AGKK-ah7w9OPmIdG9p-ylaIjlAW42nZlBQgQb5bLVR6h7tfN2hkEgucxXF28BWBAYkQDGwoWWAaVNG-fy94Ws1CtPFoEsoGWfMM7Cl2EkPvbg6U6bPnWDgbJBw1aocv71V-UmTtLmfQj12YAEk-defBY=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=4844002807&itemId=2329869190&vendorItemId=70326440882&traceid=V0-153-b9a467febdf7a5b1&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "터치인솔 프리티필터 퍼펙트 피니시 파운데이션 35g, 6개, 4호 텐",
+        "price": "107,400원",
+        "desc": "터치인솔 프리티필터 퍼펙트 피니시 파운데이션 35g, 6개, 4호 텐",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/CiRJ8gDKiF3wGRnsCgu6B-IG3EemW0ECkygZ0qBaLg5vbhhAi-8cjklGicCAuGyNKVXM5YojLbeoEvfASCB1eLylHNeOrMm2Aw6Q-JJ4X0RA7oZ_x0dKPmDnVq4KCpBQ6oe1sGKeqfQfQBwsNhR91z742oWYRXiydfRbIsAc7ewTC7B1l_DfL7kVzoet5dJAm5AHDWhA2eHquuCqoyedjihYacsFsGUa6qcaPxTJpzDHOApo0bpxkFcHisD2y7C_FgA8tCn8KpBWP3yJax3UHfZJ1NeQ71HYjQ==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7030069668&itemId=24770758563&vendorItemId=92242251172&traceid=V0-153-a5182df880da5dcf&clickBeacon=7eecbc40-c607-11f0-93d9-4a8b84aa7679%7E3&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "브이디엘 커버 스테인 퍼펙팅 파운데이션 EX 30ml",
+        "price": "25,650원",
+        "desc": "브이디엘 커버 스테인 퍼펙팅 파운데이션 EX 30ml",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/db3A7dVs1wMbkoLrdWLlAUh526HkE7o8L0QAs5wh1W6ijrwkBEoJB-TprngE3sIziIrHgvPpQU9_-aBKvN7OOInj1KtuDKPq1dEZN8z76fQFl1gySo8tDaAVYMBhfdHTATU2fKQ8V3fIw02SzjIVK1cxCn9F-VGMBzTf6_1eFzRVMXsdW8UVfUvaTJ63Gy1smhH-i-Wx9gsO9aOSt8JHw5rXDKhmr7Next-JXLtdA_BOMVxt1HIwAkI9jBYbydUiO2cjgTUEJ07HrGn-bMu8xQ==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8834346105&itemId=25484008876&vendorItemId=91767847074&traceid=V0-153-bd35073bd2b90d3e&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "지베르니 밀착 커버 파운데이션 30ml, 5개, 23호 미디움 베이지",
+        "price": "90,700원",
+        "desc": "지베르니 밀착 커버 파운데이션 30ml, 5개, 23호 미디움 베이지",
+        "tag": "vdl파운데이션",
+        "image": "https://ads-partners.coupang.com/image1/JoJHaxuktP4Zp2ZeJgw_SJqnC4IdHaDX4CDM0anoDJN82yYOXfbN3K2b9LIcXo0PLkxVV19ijWkkE8i--oUHcPZSOHJi6_xbtxg0dlfMQjoLhrVSyNM8fsZCGhF8F9HTHQc_V1r7q374KzXTn18FMFDuIBLov9KzX6C2B0n2xCP4ixtYjYC7Bn9g_D4I92xlfWC-E9MblAjVrumcyD6Nd0Y8nWKLLBk5j1sP4CNNH18BqZtL_N42jvVr98J1EmkcQapdSEjsj0tEthsWBnLO2yHJIhV6hr5XXg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7344992433&itemId=25336093305&vendorItemId=92555759856&traceid=V0-153-e0f5e4bd3480788f&clickBeacon=7eecbc40-c607-11f0-b63f-e85f0a5ae24f%7E3&requestid=20251120205314483307321904&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "뉴스킨미스트B-2025-11-20",
+    "date": "2025-11-20",
+    "title": "뉴스킨미스트B 추천 상품 BEST 6",
+    "headline": "뉴스킨미스트B 가격 비교",
+    "description": "뉴스킨미스트B 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "달바 화이트 트러플 프라임 인텐시브 세럼",
+        "price": "27,900원",
+        "desc": "달바 화이트 트러플 프라임 인텐시브 세럼",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/XzVLXZjF01mcfWXlXzvbWT7DDCDJ85CRJ2SZSCGzQKkSMtpiltHEjcDbF8j9fJQ34Au5OOJC1f-lltUEKGzgXoVJdFu7YJ2Nr1bjIcrvd6udv1S56cuxGx7iu07-2iRHosHmzKErwjhIIgzAli6tThcgN7YqMC32IIL-lsWKwICkORCBYtBbAPHGZThRRCBJkOy4C0OVNPDHF8i4YeZSK2wf7EAQZPajRXMu7fU23neH7mXbOyNeIHIJAEnrsn-VhD0tc6H6chl5GmIU6oqaWg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8215941815&itemId=20220454094&vendorItemId=86771189929&traceid=V0-153-94a4250af31dae4f&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "[한가인 PICK!] 이지듀 디더블유 이지에프 멜라토닝 원데이 앰플",
+        "price": "24,900원",
+        "desc": "[한가인 PICK!] 이지듀 디더블유 이지에프 멜라토닝 원데이 앰플",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/inEiwr_462ZRQv7IigHE6GzkcVN1PPdNT_Fvh9CmliO21HcOGZbLnN3IICbZiqJS21tw8bqI22huGV6DtgHnjoxbLKESzSTxAC_NkHG_n9uWMwAc8idLgHyAxljj13LyagNd2fMoyzM0Wd04G9onkJI8GAL9kMCcZ9R9SGzGarBQ8tsteSgHayE5Q7qSxCB6kQXgUE5mez25v7T1ezyWKtWblKxmKUkteEkj4QeHAmVJkIxinwBgMh7w7NaUGDi6IGzU-Im7I6JgIBWlJSRTpQ==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8155060801&itemId=24258709484&vendorItemId=93616891821&traceid=V0-153-1920d93aeeddb16d&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "에스트라 아토베리어365 하이드로 에센스",
+        "price": "18,400원",
+        "desc": "에스트라 아토베리어365 하이드로 에센스",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/W91OU5cd8sCxhkJTWyH6wMbAzU8PN0ZarwrEnpk8BBO3JKnH1eAk0na3LJ-6LBgW7eLgc_Okl_6AHec91bgJMz7uhdGOCTUXxISY4_nrNH7dmcd4nDWSijTndPHenaRcnRhGThefCdA8ronC8zL-bKHVBwpd1DBIB6wyaWneTnPpndFtHIAkaKfyHiTS7H0-6rxZnzqi9HpVmX5s-vsRViL2UNYpl_ue9F-C6sVGulwGfBtZXcg1QH4Jw_QQzeuogGew8yoM8SZHhtsluZu6l4mCFCVSpnF9exqEnx4gz0BVy3cqAdz4JCJ8",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8548534734&itemId=19492310127&vendorItemId=90774439429&traceid=V0-153-96d63b17f5584be5&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "아벤느 오 떼르말 미스트 150ml + 50ml 세트",
+        "price": "14,900원",
+        "desc": "아벤느 오 떼르말 미스트 150ml + 50ml 세트",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/wlygE-9CObpKBAiLwupRifaCu0oOjA_niPHgflAqew9E6XUVRfuFgYBpIXtNnzfShuR19CrQNxQ7cBsHIJ86PGIIxX5ibe3EJTE-Lbx_V7NSuC9-E1Sl5NECKC-flJr3LBIt9U788dErn2UNNFomQKdNDVf6UrCfA9cbRRIrffSn99vKTji0IlD1-dua0r3JiPToq1OTEEc6gVXkhhhvZxAQB9MwYXsOr05HTbX9oj5ZMeFChPoMFGl9L5Nq0Ihs-pcrKtnfHP322Z6m3CUd5w==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8636125532&itemId=25058092150&vendorItemId=92062359857&traceid=V0-153-d80f8a79f40bdac5&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "토니모리 원더 히알루론산 촉촉 앰플",
+        "price": "11,890원",
+        "desc": "토니모리 원더 히알루론산 촉촉 앰플",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/OpvO4toQJx7lhNtEOv6vgelBoJwlrEpv8PjcCOXe5_-SK6yq4boJafRdRepCE4NubjiHx8IPXfwAXixpz97KSrcgpnwYt1b_HB1PxHELnQIa_I5YfTqgZYNBABsIT1P3jJdr7DBpA3ayFA7zlHlZgc-wxci3-XoWSH2w5bmWm38bo7ixONCKNQdHW1indMppMWY31oOohSLRiPvD1EDk7PXPFzpKidFfS1Aze6BpBtXAW_xN8_IvPDq1oIA4sVRDqtucOdHD6Xt4WjRcS6LZ6kBuZPAxCsWQ_GEhdhqUwCN-LioY2-IfrwA=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=5715573812&itemId=9542937531&vendorItemId=76827638643&traceid=V0-153-28b8252176bf3a41&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "씨앤피 비타 비 앰플 미스트",
+        "price": "11,580원",
+        "desc": "씨앤피 비타 비 앰플 미스트",
+        "tag": "뉴스킨미스트B",
+        "image": "https://ads-partners.coupang.com/image1/ZXh544wsnwbwMZGQZdAWczZCyITfVTz69Ly46h73ZtlJhwwDwHPiFAz7BmKeeSoZ9TzNg-MC399Wbb5O6HMopY2foOIXfiWvCEu8N1_BgmUC9iMAcCWAeSkza35_rt6btUp4Gj3-5eD6EkmN87tbqU4UVMxt6eEuB7Dblh-1v3l2xRly2BozDCEJ3WaHmCdv1uha0rBxh4HbuzHy2hM9bZuNi3r4XXRfcCSCsfAOTU2iQZ2kpIkjTDa3QBeHX2qDYaEzHsbYBv2Vjo_o60Xn0Q==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=1705122060&itemId=2901599077&vendorItemId=88374438578&traceid=V0-153-fa2686aa1bca8f7e&requestid=20251120205314704026895879&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "맥립밤-2025-11-20",
+    "date": "2025-11-20",
+    "title": "맥립밤 추천 상품 BEST 6",
+    "headline": "맥립밤 가격 비교",
+    "description": "맥립밤 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "아떼 어센틱 립 글로이 밤, 3.3g, 3개, 02 플러트",
+        "price": "57,900원",
+        "desc": "아떼 어센틱 립 글로이 밤, 3.3g, 3개, 02 플러트",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/p8iyc0lPU_-R0BQop05MuzgpzCI86nYLkA3JOHZK2PqMtGTFPb_khoEcm2rf8DYNBIfiLsr-cto3FmOnBm8JHe67qPQ0NxVhukqJYDq1HHVySOxw1hPxYwBChPXZ9UaJp7DwxH0x4nWedB8-slkUxWF1_LN2V8xSFFcA1q22HE2qxFLig2-2b0JKUq-shUvMguA_ANxT_Okbphr7qV2C8p2YfGaskvv-h2GOiAzXk6WEWfF-KOFBv1E6UXkgP08akxpu86mn_6D-rovgkiDFDYuqaUefk5cisXmtjRR1KwynCg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9184795179&itemId=27092046357&vendorItemId=93932428664&traceid=V0-153-e75df07cdc47e2e6&clickBeacon=7f4367c0-c607-11f0-8fc6-fcec03dfa14b%7E3&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "맥 글로우 플레이 텐더토크 립 밤",
+        "price": "32,300원",
+        "desc": "맥 글로우 플레이 텐더토크 립 밤",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/VBhPy8CGfIVNKUKNVLR0qox1nB-DDXHgh0odGhkeCZOeAJl6bkDKWOio54WgV6k_HRd86LpMF2n2Akz-FN56ZaOKNdWg55GCoJSQNhZjG-A0LHbUJndsKMakONJRGp31LTyYtHmPRu9-ma2YiO6m0XwfyrHT7uKMfITvhkHbtTMhwe4igK1ORRhukCMW_rnVdEhKMBjRUgOsPZztqlconhU7v5NxP8oyqTPBsJilp5nX_8gJkYvcaj4J5cDqSuxQI-o4hsbvjOLAiHM5KslBRKwzkKXNHL_sQZF-0U6L8G4=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8314391571&itemId=23993708945&vendorItemId=91014675940&traceid=V0-153-d4346dc4993c50c7&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "맥 글로우 플레이 텐더토크 립 밤",
+        "price": "32,300원",
+        "desc": "맥 글로우 플레이 텐더토크 립 밤",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/brRSgUUni-e83cEGbggu14GMSwdarM82i-9zHPVE1a2BzFSrEVWTdHkQSwmPrdrDDddK53cVcmRTtE2YqzdTf0rECKnPAst1B5WNLG_TsRZuTE5uTciU2V2jljRiWeKKu8nfUmgj0r4OJYKp-X_TIHD-zDxeycELlkq6skv7VIArKuScmO8nI_dYaRANMkJAQ09Y63NMGzSnePYKhlhsaFwLH820N8es0ilZYZzGCZK9oGJOrRP3d4UGYlWqA61Nozw22S2X0NCq7GRR-9oGUDm_dVE4AkmrLSvICQtwqy0=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8314391571&itemId=23993708953&vendorItemId=91014675975&traceid=V0-153-d4346dc4993c50c7&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "아떼 어센틱 립 글로이 밤, 3.3g, 3개, 03 크레이브",
+        "price": "57,900원",
+        "desc": "아떼 어센틱 립 글로이 밤, 3.3g, 3개, 03 크레이브",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/MF6Xj4TifLa1r31iMMekObBI5YyA9MQkOaDPiL6ZjmuAPPvQUD936RcdnAQTesWVz7M3bI01B5Vd1H1RafPaLbD-xYbsp7MAbbyr02gnVwrIhS6z8_PSnmsomI043HLtw7OQ2SB34CDxQQpAnJrTxHBVYlE8xVhYVIKEQyWaB4YUhQSl0bh9D5I1k8QG4FK-ri2OZy6ufQfcwQT2KGj6FpmRHvGrgUk_PBg79cdK7bBY0DnJUpyoNf6dybzFlFM_6oIRLhcECSNxWaJu-IHHGmbpa-Pl1vxX36zGfRjYEpzGEpo3",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9184795179&itemId=27092046364&vendorItemId=93932428649&traceid=V0-153-e75df07cdc47e2e6&clickBeacon=7f4367c0-c607-11f0-908b-23d3816311cf%7E3&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "맥 글로우 플레이 텐더토크 립 밤",
+        "price": "32,300원",
+        "desc": "맥 글로우 플레이 텐더토크 립 밤",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/DGGYbeonw-jUKGcADIk6BEhty_vZwBQGp7zn__xN1qliBoM2WEIP8o6rdQFmtU1iVN4JN7lLodB98HqwSbO-XWA6LKn08jUJ0D8nTKZCcWnNSOoy6_sdt3H5ngLfHmDmKzf-jgncAjew9omPxquJuqEMkrrtb3pENJz1yhcY0SZ7pr4P0ywZl6KT_cp9Sn0WS5mkhSEisRij5i_M9KXOnfZWBOIKCeSXiST0011tQN3h02QYCSI3lZLMMlG9GUS5vYkCmYjT-xFcH1jz3oHp89zSBPVwNI1liIyhPqbLpsWuag==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8314391571&itemId=23993708947&vendorItemId=91014675949&traceid=V0-153-d4346dc4993c50c7&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "아떼 어센틱 립밤, 3.4g, 3개, 04 브레이브",
+        "price": "56,900원",
+        "desc": "아떼 어센틱 립밤, 3.4g, 3개, 04 브레이브",
+        "tag": "맥립밤",
+        "image": "https://ads-partners.coupang.com/image1/wsCM4ieiSrIJyjZKwjkCpSUIAsEdFR9hpXC6oO28cjBu0IG1sU2KIVPrVJkT3qITNxtVAuNEV4h5izAd0LYp_GjC2DJS460FL54Zv3ce-nhGILMVZUnmcSGeJlsrZu8OREkGRb8mb1Zlfr6BKS_T0Y3YtkbSA01gGrDm-05SbrqsH-nYl_jwhYEymjYK_dcgFKCnmX9_4QpCrZiJQU1QylI9j7QBTuTHXT1AAGDGEHvCBNvvxFLjbcobK8uEAkuBGvAKyBa4bXhv6xEmW1vlslTpGqlt7lo0i30oQ2q5SZPBeNjN",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9184795159&itemId=27092046187&vendorItemId=93932440820&traceid=V0-153-62dc204bc4b474d8&clickBeacon=7f4367c0-c607-11f0-8268-e0762f8113a8%7E3&requestid=20251120205315024237316141&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "금목서향수-2025-11-20",
+    "date": "2025-11-20",
+    "title": "금목서향수 추천 상품 BEST 6",
+    "headline": "금목서향수 가격 비교",
+    "description": "금목서향수 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "교토 마이코의 꿈 금목서 향 향수 코롱 20ml X 2개",
+        "price": "23,000원",
+        "desc": "교토 마이코의 꿈 금목서 향 향수 코롱 20ml X 2개",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/ycjlvKPa6RLZhrj2ySSNKlaW8aILiWSaC3GBfvUMxMQB_mLl-X-5J4PMhNQh8bAfyeKmRj8Ef-82TKj-xHz0yw0r23OUYyNtGXhVm9oTqx2RlFkfKjk-X5-Sg7-Z8FJEAUQPler9gDz9e9nQXAARitwBTvGJh0UpFJW0BuONeWtMn1C5klL_FeXZcnDb2uAK3l39-h6PwjqSsx2Cd9XxxjRNYxpmBs2YE86_qygV52HNq8dUib5In3qnqrIk2vtwjShxurTR-7TkRru5wgB5Cdp7t3D8QGcW1vQGkyGpZrs=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=6155707773&itemId=23367588278&vendorItemId=83698735623&traceid=V0-153-fbae6abd33ddf518&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "아뜰리에페이 오스만투스 러브 금목서 향수",
+        "price": "38,420원",
+        "desc": "아뜰리에페이 오스만투스 러브 금목서 향수",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/fSnS93xCe8hVXHagfZA0Ze_5a1L_S2o9_noeItgncblyvYNSKGiSxUyvRxdEnIvi0qAkwgTV-iwKWwiHAM9vHr710d8XYF7_VbcvUUqwSIAWO3lsG9BCagO9pCRb-Uuw5zkCpLGbbaeW5LRoCRiEd2Jb6mG8D569bkKEumlm-rnjGDiYXjf_H8mNdipTRWV_4oWtqA6CjkPc7BoQXoSP_EyW5Dd-0j1WksJ9wxUSVvs5B_wYTd5yc6UE9kAJ7thq989imK-XFy2d_5qDzB4Qso_YYv93dGMCI5GrRii3enn1lg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7757663950&itemId=24359813629&vendorItemId=93790516227&traceid=V0-153-4f45ebedc5e5174f&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "아뜰리에페이 오스만투스러브 금목서향수 플로럴향",
+        "price": "29,700원",
+        "desc": "아뜰리에페이 오스만투스러브 금목서향수 플로럴향",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/3MblcK87XRBA6cXp3M2DmUJTZqMUvWmv7F1NiOOPonglJjyf20QtQRLipOT3VKcBpGl5h324yY1v8_7SfoiIwfr00BQjCwa6BZVnxEFhU57s_v0LWq7YrbTpPRVHgNgsGUbvAsWW3jnxQNS1QJKxy7bwiHij-Tcam6vjJwqveK_aTAb8rXJqa0zVxLJVZg_46Z7R02RoEdD3_uOV9lS-8IOt15gq5NSJcdddFK5qh04675SLovrEiFQJeMCYjYCiwu6PiYiAussk5d2OYonFXCoUIqv-cBwTrElX87bRlVR9",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8613798381&itemId=24985788045&vendorItemId=93080871227&traceid=V0-153-cd68b66c1998887e&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "교토 마이코의 꿈 금목서 향 고체향수 8g",
+        "price": "12,900원",
+        "desc": "교토 마이코의 꿈 금목서 향 고체향수 8g",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/AAXWfmDCOZfm8sJkAGxapVQYx-OfLMXfvCMyHn3u5oR9YPBN54iB9ESn1IeIXy-WFpVOysnrfh9_eG_BGPNnuW3fnHiBo5vS4jIQ8549rBvmoapOWPs_9o4rKoq0sRpS6TGbe9wcMdnV1djoUMtCkUkfLbsaj0FTNVWFvjAvRHfgnXE37TcmsXkzdDxR7hAQwLFyW-QAVq0WBliGoboJkBeEeUcNVU0TqJOOWWl34_ZRKo8Pagz_rm-aOwNBfwbWuCEhb0InUxbgE-oBDybeOlJP_YKuPg4WasF_uWXHtMUM",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=5755139716&itemId=13323772705&vendorItemId=91274486721&traceid=V0-153-dc5e485e8e12c3ae&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "뭉클 섬유향수 룸스프레이 드레스퍼퓸",
+        "price": "19,900원",
+        "desc": "뭉클 섬유향수 룸스프레이 드레스퍼퓸",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/I_ZCkHubJKfglydMI70uMwoj2fzw0nF4RTY3wLs0HvWlZfffL6nxBqE8liDFKM_TwWSS3qgFaxBzTO_5I-A3ZLCNialS7i88GOtUQIZzscrPv9qBfIIS7f-d_EBacmnNEGjY3EQPmE4zuEmDXZ9JPtB6EP37LUIKMQgfqfT-agjIi0sdxpoSTYcUHsQnCllkdIYvSCleqYoRZK6dOq4rWjqrZ0xYvx5yPc-FbSZ3-Kqb3ZOgodECdB7RY81bB3tTdE-xC9ZzvNI5j2Ku2EblYrVJn78ekU3ERcGChLuLSg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8553886061&itemId=24768787318&vendorItemId=91776958691&traceid=V0-153-290448ba9ea44a58&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "Atelir Faye 아뜰리에 페이 금목서향수 오스만투스 러브",
+        "price": "39,900원",
+        "desc": "Atelir Faye 아뜰리에 페이 금목서향수 오스만투스 러브",
+        "tag": "금목서향수",
+        "image": "https://ads-partners.coupang.com/image1/XUj18Ig0nBYwkhr3XUF-oKQY4_lTtUYXOr_t9Z5eSWe8V4iEb4mWEkyb2FBGuKd9TMGkmJEs1XtgYF9hYgP6ZNB26loPOawH5v-9CVTPI5miPSDrO50dGOd1qQAePfD1ysqlW-69ZqsJYuIvHZjsyRK6SclqerUovP1RN0TVr7XQAjCpJc2aYs6kItW9KPOfupmrq01zygRGoyZhg7psEClVxaqXJGNNYYHcZ6MxtF3TCiUGrjJb-ktqmVe6DVIAJI4Pq31cNTxPLbYnrPlvYIF_9BsnttMM4YDwtqtZJ6TY",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8840294034&itemId=25764218174&vendorItemId=93303083074&traceid=V0-153-1bb3d9c475869c25&requestid=20251120205315272176776277&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "샤넬립스틱B-2025-11-20",
+    "date": "2025-11-20",
+    "title": "샤넬립스틱B 추천 상품 BEST 6",
+    "headline": "샤넬립스틱B 가격 비교",
+    "description": "샤넬립스틱B 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "샤넬 레 베쥬 쿠션 본품15g /쇼핑백/백화점정품/한글라벨",
+        "price": "115,000원",
+        "desc": "샤넬 레 베쥬 쿠션 본품15g /쇼핑백/백화점정품/한글라벨",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/wEnEmutDu563QtaqwChG60heWUrw0qt55KHrzZ-07bN0X9ZWcfZG8tzt4EMMqjglnQHccp_Y9THfbePoa8GzzRr5pbMvWxQMLMOdX8gkqO7cr6-YuD3yF3-pwKXhPShJCtJy_dDjvkOS96_tLMrmrzvwPORH6vdAhKW2mN4A0_XY4nSv9xPg6Q73f_heJtSDxUyqCjhiX01ZDYoD3PznPt-XfkG7ugmpjzWMLEduTXV2Sp86s0DQrjLr8_RQKa51vLqiNAreB9oSbBObxDvEGYwkvNlUEetb5enULAyrGhoN",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8623310707&itemId=25018491253&vendorItemId=91762838766&traceid=V0-153-3c1eb4a73182099e&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "샤넬 No.1 드 레드 카멜리아 리바이탈라이징 아이 크림",
+        "price": "97,240원",
+        "desc": "샤넬 No.1 드 레드 카멜리아 리바이탈라이징 아이 크림",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/g_jPreZbwH02SDo0g7HykifGrf3m3XDxp3NYKgNK6pfgGprXK8OJcebPG12-FD_OdAAnV7GK6Qv70Pbhgvlf3o20Wg4QZS_iwVX0h3wbcYOG7T3QlqJs8k19qBW8WzZXTn0sAaJ2NvZC-WCUlC5-9aAAgAFJUZeP6DaUdMQVkxwPG2N76qcwv_D9Toxvun9aMTQoHyGyGeLYIEMBYFqYnymzZXO7WvULJgU0XJMkYqNvSf4Y1t4bDK9Uu0N0-Hg6D2umGD21uXWzwInqkDynK_QinbH4BO8eCEAsbLBxXoCN",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=6684034620&itemId=23464734838&vendorItemId=90491400111&traceid=V0-153-b333a42db4cdd29e&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "샤넬 레 베쥬 쿠션 본품15g /쇼핑백/백화점정품/한글라벨",
+        "price": "117,100원",
+        "desc": "샤넬 레 베쥬 쿠션 본품15g /쇼핑백/백화점정품/한글라벨",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/umSxqgV0WfMzI0BquiOir5cLsng9oH594-Q4IPluDjISOyTdf6chVk-DK2a1WTxxSB-QorzbHbTic7IIT7AsJT2pGvWZzAAxqyg9OEqerbZB_4tT9jAhUryggHVi_ZqMs4Wury2yXsjKcbSs76lsSzcZxXoc6PtsHf8mJ6mrl8CiA1rcA3nEcSoBRqk-253aIl806zmiCHSmndeVSbMvn36EQt6vzEhJAg8DOd2kJPEg70bYEItYNsieTYmoMCHsAbMeYP66Mvv0xcv9lS4QIHjHJUQw_syDlgePpkjzlg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8623310707&itemId=25018491261&vendorItemId=91754177164&traceid=V0-153-3c1eb4a73182099e&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "(백화점 출고)디올 NEW 포에버 컴팩트 파운데이션 내추럴 벨벳 전색상 택(1)",
+        "price": "99,800원",
+        "desc": "(백화점 출고)디올 NEW 포에버 컴팩트 파운데이션 내추럴 벨벳 전색상 택(1)",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/ynTNNzp9WJsWGP5hyiAz9F_9pjYdNbiksANuzqlW4eW5oACmLPnggIOXfKPD5UopevzzwFChFXfXQJmPzQb8n2SG_uY4V_QAKnSLAbUBjPSmA8k5nSSVFpCraHQ4zkPhj6qW_mPPq5KSd-iUonNA6vOsnTeZtMfsvW-LMVFLbb3y4daZwM8N9Pcs8mYyPmlIrVtMoMy7q2N3ZrttCml9O5rgPk_vUkhOJmytIKbMJXmGPNsthLY4Ls4GBXV6GDitXeuT2acGEg15Y6AuGPBSeIJWFvxVxPJD7NyVNm_Slmty",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8208552616&itemId=18093453516&vendorItemId=86015164373&traceid=V0-153-60fef61f969a3c7e&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "돌체앤가바나 로즈 글로우 쿠션 브라이트닝 앤 하이드레이팅 바운시 파운데이션 15g",
+        "price": "85,500원",
+        "desc": "돌체앤가바나 로즈 글로우 쿠션 브라이트닝 앤 하이드레이팅 바운시 파운데이션 15g",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/y1-jlStfjG1sMgKty58AvUWO34bm3wdpc3TjLXD_BKVoBfIUtHbHUEULd2g9V5k9qCzldJGKBNUpn5LO1KvieKia7TNiYsOZ3bUl3-PosvxeQvW1zxyLzA1DwgI82ZCoTu4b5LYNhzgm6ZR3GEZaej-CW-eFGqgEUjfJ27ArEVjb-nhEFgDebvH92sx6yhmrOQMaQKwimhVwaq-aV4z5UApjwwdSpVaO35RQGG1ffHZ0_QLjXVNpq_tE_OxwtsRGk7m82eSooMDS3O_P_EpvRg==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8518712221&itemId=24663349093&vendorItemId=91673737976&traceid=V0-153-f35545ffc7eadabd&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "돌체앤가바나 로즈 글로우 쿠션 브라이트닝 앤 하이드레이팅 바운시 파운데이션 15g",
+        "price": "85,500원",
+        "desc": "돌체앤가바나 로즈 글로우 쿠션 브라이트닝 앤 하이드레이팅 바운시 파운데이션 15g",
+        "tag": "샤넬립스틱B",
+        "image": "https://ads-partners.coupang.com/image1/aTIuMynefIjZjKMSaWgXblMHnk0IvxPiIlWb6oN30fEdp8p5UqA4HDHOCdvnD2j7P8UbR-cICChP_rJmvOP1Y_gGnxK4Mupv_LQJMNWzzwed4X5BYYto5fRx09BDWTsXCzJACLxwXBqEEjvD-cuBeNT-JiKXgCSR3tQfZ926U36JyDGDWZcOoXreyc1JFe2Cm5So5aK6Bg6JX7-18GCpw-DyqRnxd0MzYY-GxhRTQ4JrlIeiqbmVEWBajxq5cVCevNJTiYrxhISg8aPpZQYObR8=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8518712221&itemId=24663349092&vendorItemId=91673737968&traceid=V0-153-f35545ffc7eadabd&requestid=20251120205315524144730900&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "777손톱깎이-2025-11-20",
+    "date": "2025-11-20",
+    "title": "777손톱깎이 추천 상품 BEST 6",
+    "headline": "777손톱깎이 가격 비교",
+    "description": "777손톱깎이 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "777 루이본 깔끔하게 잘리는 고급 발톱깎이, 실버, 6개",
+        "price": "48,900원",
+        "desc": "777 루이본 깔끔하게 잘리는 고급 발톱깎이, 실버, 6개",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/7J5mT96XFE8JgNPE7HUXotHkHKYASaRQ9ERLMnLmJLTIBaQYK2OvbKUF541v4VdlEdkUnmELfNDDYxv7nmjjbdIoPo-Kr6JGsMQiagYh6FOopb8Sd0SII_sWITHqENZNCurcZTMIReOXKmBblwkiLZim8D7iqYW8srvbQ6MSUZLV1heAxCbfprOu5w9iFjxznOvUx_HQ6k6O8oBSRV5R1E2hF0rurFY4AjAjlOq_t6gfgaegKyfqXYMlgRPkIeqmNAK8hdOImMeaYWH_gdQ1R8sQbxq2-mo=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8636089546&itemId=25057941823&vendorItemId=92062212843&traceid=V0-153-d82caa1433da732b&clickBeacon=7fbb08c0-c607-11f0-939e-40ea3ccf1aad%7E3&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "777 손톱깎이세트",
+        "price": "7,090원",
+        "desc": "777 손톱깎이세트",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/dkLSIRxRE_HB1eI7drFOTQkgThGiw-U1PFWxI_SgaSgJbXZ09JyVJjSjrDbVCODY1rC-YqYZtw3lpzSen_yejccUUVUOwcgAaevUh9zd26BuSvnlakygsYZeKOqjAFNGPjOYs_NpJpbgQ9vLsqJoQmB0Xtx9UadZS46a0l1Lhxf2-b4Dgd2yWju_Q8sToGn2xulg19hx3cqLY1pFr8icb7WEP4ey0437gCPkUdaTn3kZD1VToGI7PnpAz_13nosz5Kv0BdGrjN74opiV-o7EqWYI",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=6711584577&itemId=11357234579&vendorItemId=70300410907&traceid=V0-153-a2e5d53c2fd09d03&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "쓰리세븐 777 발톱깍이 2개 + 손톱깍이 2개",
+        "price": "8,900원",
+        "desc": "쓰리세븐 777 발톱깍이 2개 + 손톱깍이 2개",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/Aj-doCZAc-W_X5fCAsDxyFk0DCotcM2yj6nEUGA3w7YcaB7AY8zt4fn2PGf8McMpyMeSDPNrng_u33c_uGKrWMpCAAkNJRetyNacISVdlO3edtLET5H7ZJpbzJHqJbfnh7bkD-iNts09Xlm3-V7eb-hDcxw7pEfI-fol_8fpXGJhoww0R8K1JwQCS21_bitvwLwsb7IFnl9dkmU8FcUIkwRIVVDsY6aWlh9uSMa0AEQ3iToBcsOOv19nVqCMQCJCsOuSqy_UA_dVXQixSZNi0vK2htmIvsW7tLUwdKgw3has",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8907665938&itemId=26017487728&vendorItemId=92999279073&traceid=V0-153-199d05fa7fcd843e&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "슈어만 눌림없는 프리미엄 손발톱 깎이 키트, 3개, 그린",
+        "price": "41,900원",
+        "desc": "슈어만 눌림없는 프리미엄 손발톱 깎이 키트, 3개, 그린",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/eT7dIfYXMYLBBr0qeT0GNUezTuPQ83R02HhtAEIfBAG0zkQ1GIcUpkuDe5UULIO517qC2XJl_tR0guEX3EXnzeBpvRPR5jCjwViquhAgYRsu4RHFmYBYU_NSQqOA-ltZfD71ayGd3LTFUZ5zgxxILe_XZos8YKT0LNEJMYPAmDc2WkvAKkMV2Gew25YbvT8esphsxMycN2FIlesq1NG8oLyyPkiBj8--HgJhO1GPQWeOYH6yxwloDsp4kOc5DlCBARNOoUNxQdaqkdcHU-iWNRLQrc_f3sdHWJg0g5iruWmJwTUkaQ==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8900226936&itemId=26706398495&vendorItemId=93678181147&traceid=V0-153-506463fcf5b8fa4a&clickBeacon=7fbb08c0-c607-11f0-a4f3-6cc33bd77667%7E3&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "777 루이본 그립 굿 미끄럼 방지 손톱깎이 대형",
+        "price": "4,980원",
+        "desc": "777 루이본 그립 굿 미끄럼 방지 손톱깎이 대형",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/HIQzI0GLGYYUgRshHLRNXh0TVumA42pdtb5rpKtVvpKmFAUkPRh-njWFl-NGX0DxJl-QzXCU77QQCT81xWty7eWveCpJ221_trurZPyKELKr62L8eOK44e8ZC2g44D5rw2bngY-fgL11W0hk3Jzie6Fru5gRjm9A7WPJe6-KhEl1dFzPxL1qVBoFwetFxMVfv88yZe8pvyFWbzgSQe9SFFLThJIVvxQKXQk7BrLRDqSRJMLNlxjalxOLs9MKnBl3mIHb7367x28OK_3_21awFhvCMl0=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7974970797&itemId=22104801205&vendorItemId=89151755807&traceid=V0-153-6dd23f8782cbf923&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "777 루이본 깔끔하게 잘리는 고급 발톱깎이, 실버, 5개",
+        "price": "41,000원",
+        "desc": "777 루이본 깔끔하게 잘리는 고급 발톱깎이, 실버, 5개",
+        "tag": "777손톱깎이",
+        "image": "https://ads-partners.coupang.com/image1/1b-dv_25FiFFHRHk1fj7szCiEnEohJVlS3HlnwC2umYoiqRSuqkII0HJbslhls5_aIgoO1BxV1DP4ECm5FTIgClCK9vwnRgP2YItrs1LIF2OCHP-sN1uve8WFnug2hN6o62V-shNkvUyQ2SOKE-165kMIwp4WJdZ09BBUy35PLRLv4XHcF0-F-7XcqNHjAlkhH-QMmeAHTPCnOqCMIjXqapHXyfAGi_iA0ogTRZmU2LUCQUGZulFtR7Lk9tVGF86PR4SaEoBs1PxuRMi3Mhpg0ryc8--ub7R",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8636089546&itemId=25057941839&vendorItemId=92062212841&traceid=V0-153-d82caa1433da732b&clickBeacon=7fbb08c0-c607-11f0-8f6b-6fa7cb982fe4%7E3&requestid=20251120205315811248542631&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "모로칸오일B-2025-11-20",
+    "date": "2025-11-20",
+    "title": "모로칸오일B 추천 상품 BEST 6",
+    "headline": "모로칸오일B 가격 비교",
+    "description": "모로칸오일B 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "전기 머리 직선기 브러시 부드러운 곱슬머리 없는 위한 직업적인 유행  난방 세라믹 열 솔",
+        "price": "19,500원",
+        "desc": "전기 머리 직선기 브러시 부드러운 곱슬머리 없는 위한 직업적인 유행  난방 세라믹 열 솔",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/1ImY5jRXWP-VSSeN1OyNGhpJaoY_JpVbebB6D4blARs9TWc9PGZ6GAFI7sqTktYnPUNhi2fAoCwCGHkMAzihmJdFUuLdVWAb-vjml4vxgQVnI-RAPEFS1slgpt34qviCdW_aO682O07iOiRP9pBEaiZf2v4KDiWYhNYo-dgh6rERvNLT_LtYjLpdHygmimWs3eD3b1ef_RyntDJKTNBh8DHr2jU7aN07AjLmkyvepFYtECmNVOenXVT6vRX1K3MCrcXnjRin2CH429thfuTQxnGLyy-tmhrsK2WCjO_rOiJQ",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8717381496&itemId=25319743527&vendorItemId=92314724499&traceid=V0-153-5ca99ab1f382becf&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "볼보 굴삭기 연료 펌프 EC135B 엔진 오일 이송 20524154 부품",
+        "price": "61,200원",
+        "desc": "볼보 굴삭기 연료 펌프 EC135B 엔진 오일 이송 20524154 부품",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/bbHCLIFFGSaGJ1GmbTuSNXpQ7xG1sDyvKlNIZ6IYUxRW2kBA6fzLW4pcatd54FEm7LjvPBC0Yz76DFdzXRBZCC5tmU8oNhnO38gD0Uqa2z9yJbmSghu-djV3YEHxidgL7WtwsRIyjQGW7KPr3HKeGDJzWrn8kUVuU_n2JBtr2LgZN1MN1eMt3TJlr8-pxEJfoK7SQS9vzpwr4Elq9AeeFTSCjC8Hs2S_lYTXdzAy7_QVGJOhavDTqlgItFIYyYBwwvFUfSNs6EKDnEsonuGC9UeHGNDz15pCFmimQN_Ug-LEcA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9060708751&itemId=26601426643&vendorItemId=94049106765&traceid=V0-153-83f6e423222438fa&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "에센셜 모로코오일 오일이 함유된 주만 컬리 헤어 샴푸 알로에 베라 비타민 E B5 함유 남녀용 두피에 강한 굵은 모발 영양 공급 비건 SLS & 프리",
+        "price": "91,300원",
+        "desc": "에센셜 모로코오일 오일이 함유된 주만 컬리 헤어 샴푸 알로에 베라 비타민 E B5 함유 남녀용 두피에 강한 굵은 모발 영양 공급 비건 SLS & 프리",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/-DpA_PXxMv5yDcVI-AmHZEMZ9UtdfgM--FHt3hzF_KdnY4LF1ANOou2m8AAW17I4_gXpgGefyoI8Q-QOHVB2vyKJU3icpHakQOhaM6YgZKvKfN80VKWHC-QBBU6eNYO5xYbKPANRg_qB_DKvA3pDwEONUFqYSBrlsM6u4ix0Ih46wHO9Bx3xy76giULz_QkS5vw08TGQFQvA42UCLbwYrsvaCW6dHWsN7CSBUJDUvYUsxsQkH1YkRL5bXRrkd1nIEkek5NliPehcmnQ9jTfGic-2DQKG6ARcs0HlMWpVGWg=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8986107990&itemId=26506227352&vendorItemId=93480864244&traceid=V0-153-e3435d0089482d79&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "Weelye RX23 12V FCCE 어린이 전기 장난감 자동차 블루투스 원격 제어 부드러운 시작 기능 2.4G 블루투스",
+        "price": "28,000원",
+        "desc": "Weelye RX23 12V FCCE 어린이 전기 장난감 자동차 블루투스 원격 제어 부드러운 시작 기능 2.4G 블루투스",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/t8-7T5V9TMphO_cstzLbL04xKrp9tEsTHDRCLqAf0WlcltkKzlyxXfjbTRELxwjP5v96SeBJeXN6xohlYJsGkHWeKH3cRmM7tAm3Rr0WBD32m4S4vAF9aBX2wne4oQRSmMY0ou9_1WMROfDGoVtxuD5s1XG1FidGoyhqEPrttY0YKXiUNxZ2nPiyLr0jAjrv0vVRxt8kCfY2iRbLRvM_rUIL4bLxKALGvkbgRR1ez0Dl_JRg7kGaKDqGwd5yg33YifQCBonbszLzskxKZbVGJvhgGrQUcUk57FWKpomHVNPD",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8642718608&itemId=25083053948&vendorItemId=93152262821&traceid=V0-153-2a813d421ca2c4f0&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "B5XE 수동 펌프 핸드 액체 전달 오일에 맞는 물 화학 배럴",
+        "price": "8,300원",
+        "desc": "B5XE 수동 펌프 핸드 액체 전달 오일에 맞는 물 화학 배럴",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/s06ktkwxpAMDRZrbs_JmfaKROJoKn5IUlg07kiykeedmhNs-TSIX-r7PO2O-9sD3hmWP5ZC2MUfZplY2bMF8hILmtd7cwL7rv8D3jMhws7pPZEt-SBRuNJ5ximoGNwvy00fYE2LVaXnhx54pYiX4nGGWJYquAh0w24PjXOzDnA4cVHF0VPTXx2JmkJVWRP-WWjlCY0zAGTJXw4PmUZP7x3yw-V3C1ygEMUCSxCsU8-LtKglhI5NdAKSO1hgjO5Ms7NUlhXLUur6n4RxrMIo-jYvN0-Q2O5UegHETGZxJbn7rvw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8928047829&itemId=26096566065&vendorItemId=93831234021&traceid=V0-153-27ec5f2a49124900&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "엔진 오일 펌프 96325246 DW25189698 아베오 스파크 호환 대우 마티즈 티코 다마스 라보 슈퍼 16100-70B10",
+        "price": "63,500원",
+        "desc": "엔진 오일 펌프 96325246 DW25189698 아베오 스파크 호환 대우 마티즈 티코 다마스 라보 슈퍼 16100-70B10",
+        "tag": "모로칸오일B",
+        "image": "https://ads-partners.coupang.com/image1/qxQAWIkv1NksOEXNqyje0Bb_dPlZ-1po2lHvm8_yK3L2LaEHkz0DX11upzcNB94dPcjKjwci6PpRGN0zaU-LxfzKATXQwQ1KlQfmIcjb_jneHXOH4LVsQ7v3R08elwdgy9LTCEGwYz_hSmwoT-GiJb7MqWhwNdi8yNTOYMvjmdjHxZwNsnj8iNrvrNRpHSltuIvp3Vk9KOAs9NRhKmYB-hDoy0t4LXnt7gbVRqDqF22PxJIOYkYitnQhY8UInNml2pveSuJct05JbS-pQlLq0h4hfks40wIIxQ3wXDg8UPj6",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9009627128&itemId=26407847570&vendorItemId=94049502717&traceid=V0-153-daf895f36eea2826&requestid=20251120205316302307322229&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "pdrn앰플-2025-11-20",
+    "date": "2025-11-20",
+    "title": "pdrn앰플 추천 상품 BEST 6",
+    "headline": "pdrn앰플 가격 비교",
+    "description": "pdrn앰플 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "트라미셀 미셀부스터 앰플 PDRN 재생 스킨부스터 MTS앰플 단품, 5개, 5ml",
+        "price": "165,000원",
+        "desc": "트라미셀 미셀부스터 앰플 PDRN 재생 스킨부스터 MTS앰플 단품, 5개, 5ml",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/PdnnkHjh6nkGxnq-Pad8gqup30XDfQnW7f2Wdp-qrjZK2LAwNpB4PAvr2yMsFE-rEv4MUpQt2RmEa2z7nQ8ISwlfHCbh_7zE3zKoJjZXyzd16ysOYBtLnfojSmUpjzxRCELI4a6357t5bSIfqyc6JbP5bq-FaP8gNotEZG7IbvE9SHT5k2C9K5irJUaPfhmoYxlNitD8x5N44RZUHJFpm23pYHGDFUjrtWhpIH_cnkmVBbdKb0w5om0ZOSQOeifyoVAnH__h_uquQzHhizMfkCJiXFsOR3EYYvZEnmWX4xcF12nhbQ==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8901847088&itemId=25995035128&vendorItemId=93042632509&traceid=V0-153-314c4b5cc8e8fde0&clickBeacon=8038eb50-c607-11f0-b83e-367f1613fa5b%7E3&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "유노아 PDRN 1% 탄력 주름개선 눈밑 팔짜 주름 부스팅 앰플",
+        "price": "21,000원",
+        "desc": "유노아 PDRN 1% 탄력 주름개선 눈밑 팔짜 주름 부스팅 앰플",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/N4HQ8uQ8_u-o4pDJN3U2sohBp_h9RB4GgJcUn1MdAMqvhzjWyHRPnQeV3EBssLCOEauhLYOL-3xzR-88a0UMz56WbrYwHdMJiSbpP-J4smnLhwTGTzQQASvLfWu7TCswWPJuhXZUWRcznynpprAqe9XM45xJomOvX45CyShqxiMtpwnctxfKTUKAd4J00CJ7QXjP0T6SqM2Mz_8p1L761vtQ5Sgvsg40a4qx2h_JS3PZTeLKb7AcGhez-L_I5k-kTb-j7zeAlCgwK7IPa2opAVuhSdeufLT7qI2YvOuk5GaqJw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9126974349&itemId=26851759719&vendorItemId=93821568673&traceid=V0-153-3889a61566dc72e2&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "ELLE PARIS PDRN 콜라겐 녹는실 탄력 앰플",
+        "price": "9,990원",
+        "desc": "ELLE PARIS PDRN 콜라겐 녹는실 탄력 앰플",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/JUr4kB2Dt59pyp08JanOb5cdfb6YrIb45rYctE8o2z-cnJae1MyCgAQD98a-vHL8hxocs6z3TXPshAyWI3p7SCyO7CoQKezqbcaq-rQy4sxR87TK8l0hXNOmrCsEl7XpEbz2Tid882rOV208o3fijT49EbtqPZl5cfaJnmkXQRnCDC3JFquUV_kSutOFYOsg4wUDyGs1vkfn_tnDaPpgQ2-gQlXJ-F8qbBzGGkcuKmlwHHJRIuO-29AbCSsLbkHffBedS11cZ_VgB1WLCXgF",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8391282858&itemId=24256268879&vendorItemId=91273048294&traceid=V0-153-75569ef68e790986&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "케이부스터 인텐스 리쥬비R 부스터 앰플 PDRN, 1개, 30ml",
+        "price": "135,000원",
+        "desc": "케이부스터 인텐스 리쥬비R 부스터 앰플 PDRN, 1개, 30ml",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/7biTc0BFmuPX7byo7Y7K1y1LBRAsIbMGsacTXVdKZ-fCFqJ8GvrFMBvDhUYu9JSeAhxtvBqP5PXQU83-DnMKyA9QmVloYNN1fY5K-tyu7SSm8fnCVEka3hByIT5yJDH1y5voZ5KSZEgB5tvPBGmZfJlzfMup6Kd5iBs2rQN49WHl5OUcOQmou1MYA6s2GlHfP-PecrVm5Gg41hs80TzE8YTgrwxiJuLYiVlHHLgaoTSvzioCF6jhk0Gjuy41Bhnyi-rOvGIkuDHL3jKMBp3okhYktOt6yzDF24e4VXht-JgtxjAC",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8298032249&itemId=23935308018&vendorItemId=92077936431&traceid=V0-153-36148a91b5bfd2e3&clickBeacon=8038eb50-c607-11f0-ac8d-3e147fa2b785%7E3&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "더마팩토리 PDRN 4% 앰플",
+        "price": "11,340원",
+        "desc": "더마팩토리 PDRN 4% 앰플",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/_GKSK-CjZMIdqqep_Ec-5lfXIedLTdObs9fSi5u8vprV9ADsmOW0Rg0MvhkytDMhnoU53ofS4crCGA9DvU8ylV2i62QK2f-_YtJC3vJ6qLzyGRt4Z85Qy5SNbeEjB0X3RbbLNR4WiwqS6w_q_BoWOHl8Q2ynTOgpS-V5k0DXjX4ZbmRhHacK9Jvx80cpEpHVvPtLe7W_IQaClIDn9tnxN1mygWvfYm-H8TeuiuF8djExaaF96bQWIirQkbYLT40VB7jsbjjt1uXnq_-EY13-VA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8367217225&itemId=24847744494&vendorItemId=91854859821&traceid=V0-153-d6d843045c47e76d&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "메이베나 주름 탄력 미백 PDRN 73 앰플, 30ml, 5개",
+        "price": "84,500원",
+        "desc": "메이베나 주름 탄력 미백 PDRN 73 앰플, 30ml, 5개",
+        "tag": "pdrn앰플",
+        "image": "https://ads-partners.coupang.com/image1/B51mRaSpJtSr-9-8B6cvoxZMwemaaXf_eEU3v79oOVbzN9rILpVFgSPxwzgjEEpqFq6D2thruv9ickS3-lJ72HT9aAw8GsbeA2hX-1z5y3NVhKLaHvQN2LKMmj4hEDHc-CuCbq3gGnqetTrMsLcZ5iXr9p3-Khirrmp3Q3iNvjJ8m_pNaUU9vU-1p2h9fIjkNyD2jzjd641WKmo8fC8cBvBYT4nuezEBFJCWY4E5TPRFfLLOZWHZLf4ohsJm9tPTU0bJ3SM6BcVoc3CgQOGNuiNtf-xeQbBe",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8650229814&itemId=26957244717&vendorItemId=93926257194&traceid=V0-153-a1c05a5c35bbb129&clickBeacon=8038eb50-c607-11f0-a9d5-7e37a3b5baa6%7E3&requestid=20251120205316659103949572&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "닥터포헤어샴푸B-2025-11-20",
+    "date": "2025-11-20",
+    "title": "닥터포헤어샴푸B 추천 상품 BEST 6",
+    "headline": "닥터포헤어샴푸B 가격 비교",
+    "description": "닥터포헤어샴푸B 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "필립비 웨이트리스 볼류마이징 샴푸 220 ml (볼륨케어) 푹꺼진 정수리 케어",
+        "price": "66,000원",
+        "desc": "필립비 웨이트리스 볼류마이징 샴푸 220 ml (볼륨케어) 푹꺼진 정수리 케어",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/FTVn7bVzZN3jXZRCFX4RyxU13A7OFsDgyuR9ihy6EK3Fx1V9YP4n4y3x2-284n2JXKlKRMbBK0ZuWjQ7qsM6EMzvo2b_w6ufJfEq610vp1CUaGm2eGWf2qimS_EGzkcIWM3mf5ptG_MI-YI7oD8rB40_S11RYdOuq4Xk7EQzBw3YdUxYV8hUH5XEOmvUk_SB11Nu1J-aPbkAkd9N96p71rjtLkAJtUQ0ak8C2-z44y4-epHfnMtQwsPvJDn7d9-IAIxW0XwWJUd1uvJ8DuHanah3uPIxC_r5izHttsy0y9Y=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7306708124&itemId=19490110026&vendorItemId=91855012675&traceid=V0-153-da430c389df70b2a&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "테라피 귀여운 로봇 아로마 자동 공기 배출구 향수 오래 지속되는 클립 디퓨저 솔리드 자동차",
+        "price": "16,120원",
+        "desc": "테라피 귀여운 로봇 아로마 자동 공기 배출구 향수 오래 지속되는 클립 디퓨저 솔리드 자동차",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/biQRecS8lNwGX4TAbiV2PNqo8e3H66cZheZgmgH9TmNj3d2oBYyGvMgmPB1cmcHsM9r84-EPKtLKMnFVaJSQ3kdMGrdvDbXE96Cv1HgeM8DR4nfSWqlUG7l2JlPx_e5EBpWLpKrMwDKW8ZbgdzxW9ZPNm-dI5qpRXRuuxT3iEARAPtG7q-bpcPK0oWejy6Mbipc6sFE2ceCl5AqKxqiBYmppvGsv0B-5pwqhquX9qBqgPjbYD99czbUhxr_tiIwK1G-QDaX8sY8Z3eNwQBxaqLUgCaNnVyrUEdZKEFBlNGsJmw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7283881999&itemId=18602226183&vendorItemId=86781915066&traceid=V0-153-077294f610b478b2&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "헤어 민머리 스킨헤드 전기 면도기 남성용 반삭",
+        "price": "37,700원",
+        "desc": "헤어 민머리 스킨헤드 전기 면도기 남성용 반삭",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/PpJL5OoNM-vshpdfPv_PKaSU8D2m7IM_uwX13Od-BcYQdqsiIJ8AOw-1UDiEk4cNxVVQtAqO-4zGxgsNHfW0oEDCJN26VTAihAQx8-U4muJ7ifkCxmfiMPCb4hi2b2i8ozgjaCE44rqB1j5BfqQqC2gJNYtEeB7gDK5l_nW-KA4SYUpm1xWy-rRzm6M6mFnekQxtzt19C_ktTp3CyYKyqxOJ9KngBlGWUwmTM-cPQOFMJYFzsrCZZ2rI0L2NhNbq_N3L9zR1k7HIQBo3ze7GQuiBmU55Uhbug4NGKZza-cc=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8009097085&itemId=22335977841&vendorItemId=91469510400&traceid=V0-153-513890d99154183c&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "Dove, 모발 관리, 헤어 테라피, 드라이 두피 케어 샴푸 Vitamin B3, (400 ml)",
+        "price": "28,320원",
+        "desc": "Dove, 모발 관리, 헤어 테라피, 드라이 두피 케어 샴푸 Vitamin B3, (400 ml)",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/x1rCdWeIpex0y5m3xz_bqLZVJzJjH7k4EyLzA9MA6Zkj_WeresgnecLz2FW6IXPTys9tR8f6SVFNxJekTxTyiQlE83gpToZ5-QHspxSP5vvPoTf5qV-gWi5vIvFzNX12zGEmDwK88IpFGC4DK44FcMuGBtMAC3PAR41tn7OVcLbaH65rVSOp6_gEJ26xkE8glYCuNE6ZyF8xcLtdAne7NdQHvN4ikO4p0LYEbxIHljNsNNo6V6EQblVNK5RLMvyYQazBbHb0LsfopTGwjo89qtg0f7scWTlNm1hN5bhvUSaFwA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=6733219744&itemId=15694053980&vendorItemId=83036717923&traceid=V0-153-ebbc9735a22344f8&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "Avalon Organics Tea Tree Mint 아발론오가닉스 티트리 민트 스칼프 노말라이징 샴푸 14oz(414ml) 2팩",
+        "price": "47,300원",
+        "desc": "Avalon Organics Tea Tree Mint 아발론오가닉스 티트리 민트 스칼프 노말라이징 샴푸 14oz(414ml) 2팩",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/YOWo7lb8xJg_mJ36YHO9ARzgJQcUH1dhetLqunLeVji6tc2LLTHklJKgEKv2otrMRPpXulroqG3SGJYbsYG5JxwI-zox_gK7KLN8pniSIQInUvdSJ0adfUZvcmw4f6f9GCxsy4rYPmw06mWkn9uZdNbAEcIBvyKVK36jgneLS5tnLhXsl8tIbrhGNtz9BBRxgwcxhysgWNJNlk040CQf2lK4mf5SrBOwPgE0qsdzDVbv22Tn8WRTRIVw57k9GNCWyywnQnQ1ON33b7374ya2ufB_NRFyib6cyWmQG_QBkdae",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=2162506&itemId=7205428959&vendorItemId=74497006133&traceid=V0-153-29f4c5c01ea7517a&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "Avalon Organics, 모발 강화 샴푸, 비오틴 B-복합체, 테라피, 414ml(14fl oz)",
+        "price": "27,710원",
+        "desc": "Avalon Organics, 모발 강화 샴푸, 비오틴 B-복합체, 테라피, 414ml(14fl oz)",
+        "tag": "닥터포헤어샴푸B",
+        "image": "https://ads-partners.coupang.com/image1/SzbqbiadPDwr_MZ5S9w0jd1KznpMkyM5Yt3Wxx_wkSetpf2W1WkCqAt72bCd_GPWj7rcujByNsIHpB8ateq5LfvDH7zXcybV-c1wDDaUfcJBrzpd6lcsdRrQaVTeGRlM89NVfuhhwjEwRJqKxkJ1swLdDP3Lszg6iwf1GdZjrw49oGDhxMdFqL8MYE3Y2iHBnIQY3ACO0qARDLdA-Iwrq1dcmRyX8Vj-NzHtHGzBqAvPYDbW5mYhswz8iYqG6UmlNnPFdI_rd2I5QjZcFI229ScvS2SvHv7txVGNAW_XKfA=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9182625493&itemId=15630266882&vendorItemId=83036638604&traceid=V0-153-2894c6d4371a349a&requestid=20251120205316896115383987&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "구쓰리-2025-11-20",
+    "date": "2025-11-20",
+    "title": "구쓰리 추천 상품 BEST 6",
+    "headline": "구쓰리 가격 비교",
+    "description": "구쓰리 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "# 정품 # 컨실러젤 젤네일아트 스톤 구쓰리 스팽글 자연스러운 손톱 잡티 가리가리기 깔끔한 네일",
+        "price": "16,400원",
+        "desc": "# 정품 # 컨실러젤 젤네일아트 스톤 구쓰리 스팽글 자연스러운 손톱 잡티 가리가리기 깔끔한 네일",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/AvHmF9luL6sSIBmiAjZ9xFtRi7HbpLIpwvw0c49N5kn46jG0yr4c-ik56yRY8BjZ-e-qrzZuAzuyI5t7wZkxbilTeUosptRxcirE5XXaHnTpycj4BDn2uuSoY3qSa2E5FE0UBL_urFvJRPYjqHGZL-7U1DS-BblnGxNbHeWG7oc587UcO72HaBpwOCOkIGulAWdeIBykz8_tQFKL3pHpB7xmiFe52fppmoZYz_bQiV35fSRul68N4U_CvQYq2KDBn6Tb7zIKjzVT768LcDRNQrZZRZUIu7j-F15shi9168E=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8974023967&itemId=26267006934&vendorItemId=93245227135&traceid=V0-153-5cca459587d145cc&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "규니지니 구쓰리 셀프젤네일아트 글리터 스팽글",
+        "price": "22,100원",
+        "desc": "규니지니 구쓰리 셀프젤네일아트 글리터 스팽글",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/1crTjT6DYQyS-zfn1YIXAcKyWEbPs2DEMOsG88YLkUGidCnyxUjJiX-BovTVlHEvx31BBiyuhEvI92_J3_X_hP0wCGM19902DOR2bjGvkUlXCmxnyt5GKcvyu06OOvPTmHpaJXwzIKQZqL7WRLcxzz91QxWeM9M_KafHzTBb7xJ78G48C58ylc_NS88YEVdJBbHzKjvlhfqSwCK7sFYzmAAchq1eMaRZ2ZrnzfzFteFuONKlqu1g46h4ZFeuk7Gkt4px8jHSCxOIIY4ail8ndZNj7R0UULPTesR5s-5O5rSn_g==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9102614367&itemId=26760553811&vendorItemId=93731455351&traceid=V0-153-ed5c9863c286923e&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "사비오코 구쓰리 반사글리터 6종 스톤 홀로그램글리터",
+        "price": "18,300원",
+        "desc": "사비오코 구쓰리 반사글리터 6종 스톤 홀로그램글리터",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/Y3MF5q95jwBdpqhVYwdjBDeD9FgjqHsbvy4kLC09Dxv5HBgPEyGC8s2zrP9qokW55mvyNWT4OXipZwmKxaofpM1rXRuklPFEnR9rOihHjCf7zXizG1o0wnAOh0KhhINXNN27g_vYrtb1udeVLANtopZjjyooWXOr_Y8SYTsRMOIFNYWH2U3XPTJJ3FCNF-nKVVGlyXXaLMiEabFFAXsKN6Neg4_XKFWs8OA22AgSvAwKRoWDNCQ7DB0ZMHZ_lzhl7Xpt8o4jU4YSDpibDoKMoUncAsi5OKD85HsxcWJEIuo=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9141721071&itemId=26873513807&vendorItemId=93843090829&traceid=V0-153-3565b43a88752799&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "사비오코 구쓰리 일본글리터 자개 네일자개 비드 10g 반사글리터",
+        "price": "30,900원",
+        "desc": "사비오코 구쓰리 일본글리터 자개 네일자개 비드 10g 반사글리터",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/J8SuI4WUJXquCmwPJ0XeS9D94P3W4I4cOYk64A6dj2cucoKNsHDnK5gc0iOvKT1qTVuGO7U9v4pE7SaNvbN0X2i9mj4z9LxQ6wvHoyKB5T_wyB1vFAxawl2etsWgB2Aubr3axayx8hCVgURgLbTxINxP9z8GrOmT33VV8AKHCazrY9TGNQySpPTNvYCxa0Nq6EhUKt7I2zD4miUn5lMUdGtIxoNL2kVQ9-54NNJn5MNpdK15JtZN84zb-yleUoH-jzJhJv9gvAo9c1iVUuMsXttuJaWCT4YV9IJiOZoJjz8=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8395482599&itemId=26873509511&vendorItemId=93843086421&traceid=V0-153-acc31f449950d045&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "사비오코 구쓰리글리터 구쓰리 글리터 셀프 12종",
+        "price": "12,300원",
+        "desc": "사비오코 구쓰리글리터 구쓰리 글리터 셀프 12종",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/EcZQBU0WbETVL4jTEeWw1jCeOlSkUH8NWcValrwjycLqaqzwfbpUbcICq0uGus76Vw4o74ceKPuH_tuVGfqudRHIbRNrFS0HwoXn1RY04Di0MVbTvf9nXP7n5aoW2AwX1BZdsIwXorPbX4gCJ4wCkBWHy5Ag2oMR3m7C09Fw_LWEHCwj8nGTgK_Cs5Sq4xgIEb-85_IgTlBE-DYFqf6EbQD70KfP92RenkeKBhj8Ff7tWjLjyFmEYdwC4TbMC0NWofxrAzLuKettmnd5T7nRBmsG3bA0l90N7Zk3LsiOVh8=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9141708461&itemId=26873498662&vendorItemId=93843075804&traceid=V0-153-9193f940e172a70c&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "# 정품 # 컨실러젤 젤네일아트 스톤 구쓰리 스팽글 자연스러운 손톱 잡티 가리가리기 깔끔한 네일",
+        "price": "42,300원",
+        "desc": "# 정품 # 컨실러젤 젤네일아트 스톤 구쓰리 스팽글 자연스러운 손톱 잡티 가리가리기 깔끔한 네일",
+        "tag": "구쓰리",
+        "image": "https://ads-partners.coupang.com/image1/nRipPjSteE5pGM4_nY35hxn067lwgFe6mUAjgfHcY0NrSW62ZaZoTGcQTUtvGW45FPRiuoVb1vl_9mhd68kR2TJkoT1Pe0wFXWMOrLF3xE444Pk0qrqUgOhoRl2laqGGGIRPJYL9tF19E0hV3J0AjH-w0KYQMR2AFIRy6_QarRniZKiJOemJN4FCyrk3gyVC_7pDxkaZni6gNwQU8I1FfYCFLUBFznmiJMqZnv6N6aBfnn8DfxSc7L94yENxkjheosjNRgwoa8rUE5ja2I0jQClp1pepDDu6q7PrwrtcOoaF",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8974023967&itemId=26267006931&vendorItemId=93245227114&traceid=V0-153-5cca459587d145cc&requestid=20251120205317124103949647&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "egf재생크림-2025-11-20",
+    "date": "2025-11-20",
+    "title": "egf재생크림 추천 상품 BEST 6",
+    "headline": "egf재생크림 가격 비교",
+    "description": "egf재생크림 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "샤블 힐링시크 EGF 재생크림",
+        "price": "26,680원",
+        "desc": "샤블 힐링시크 EGF 재생크림",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/1Wp3ySbCvDpk0VP91XKAAWCKfaLy0kx3NET7BdMn7CKvWFXiBxNYC_jNwXNyIGO9Rkogc2LB9YmazNFci8Fk9KtD2NTe7rRjDlk6gfetwlNMNflvxsBszXrxB5VayQmFHJ6qbNk7I528wYF86IcPTRDd7Npz_OnfO2i4FYlAzAyMMdhJz8W3Rs9-PvrPR5L3LPMdUC-pWarVeewpfPFrHEhp_KRQ-H46OTbDjP83ZhUPmxML21ZMjX1Z65zjU_ID9DLSzkBZo0zODdSdCfEeHpKNpyk0GkUkJNcIiffoN5Sg",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8289536767&itemId=23905842913&vendorItemId=87538238218&traceid=V0-153-d2c2a093e5991f94&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "샤블 힐링라이트 EGF 재생크림 점빼고",
+        "price": "29,000원",
+        "desc": "샤블 힐링라이트 EGF 재생크림 점빼고",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/Br110JtRv7zWQKEdBm8hZfcvLx52Ft3izdnufKiXyN1ZBSi9vMDH3xItjJN7GDgZwuFpBhkE42NGhFckZQ52whWC7xIlQtE9uLOY1CfOPYyB-fhqYepTJ9D0VTQg-BoPRCFHttd-7NdFOrg-UuqhgqmCm2CxQ4zmUWy4p7jsr1AFGVZ7I4aIIwgexzgyUmkI-K5lwm2qd7bFqmOZSIbV4LUzqucfctWWVROWMi_AWARJ-9zGldyOHYxRc1ihxuDqWjT2ENe0A0DOgG0Z70bUeGAAqp-KoORwPovXgahCvQ8=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7662422325&itemId=26133408474&vendorItemId=86964343491&traceid=V0-153-60cb74b6a8b78d0c&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "피부과 EGF 재생크림 그링드 어성초 시카 크림 레이저 시술후 점뺀후",
+        "price": "19,800원",
+        "desc": "피부과 EGF 재생크림 그링드 어성초 시카 크림 레이저 시술후 점뺀후",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/lpjHIrvtzyzesqFjlkiDPJvS5FJt5Br75aRZoFKlg0lajzwWq4Qg2twOVv_Yy-vlIhG0xa8QwEIhKTDA1WFIlnstIRxoSU9kQVohvke64solbQ6FVzSjGV2IQlbMOVOob6u6TFySpA6Mi-QZQB-CKlsRUx50_y9oTUSOjMzg0bXHKMJpX_h7mnt8Gl90YcOg89LLSrZK3cs75BTK435liA6aGs4MYLDlwnPl5Wao--5McTwLUbfqr7b0pi8kDDXJ0RsAXCLkIioulOKIrLW2YIfVjqwGEg4lm_5EYsm43866iw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8259669537&itemId=23792195535&vendorItemId=93606926006&traceid=V0-153-b40af5ee8c30cc73&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "DW [대웅제약] 화이트 토닝 이지듀 재생 EGF크림 50ml",
+        "price": "29,790원",
+        "desc": "DW [대웅제약] 화이트 토닝 이지듀 재생 EGF크림 50ml",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/J29emeDK4W6ErvUvJxrZMmiKl1O8aYHrxFkLB6vc99cCnvSouUnl6x12U6eFYljJaQ9RA6EnWsc5X8dorW4TlYNhMs7fIMh5b1hxJxVScZxzF4vRFOz-NaawkpezhLXlw3ULXIMhAVzQTNB46BBwUy2-XlZUmwvOzXqj94HIJSJIqMgbY5p77ToIyYOswOaJVshYoMevpjH4Rm8VMfIJcvHDSD7ah4OP27xaLbkkEFo1XztXUUaWDE-2EGGobcdkcbPrNmGZ-nHcJrejFWVeMz3aquBKWeCXJO46d1k8dRXf",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=5690799938&itemId=9423470420&vendorItemId=91700207618&traceid=V0-153-7b969120a905b918&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "라누엘르 시판세 EGF 피부 장벽 리페어 크림",
+        "price": "8,900원",
+        "desc": "라누엘르 시판세 EGF 피부 장벽 리페어 크림",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/YSPfZOkPpLtaKNLjYWLsBv2SdYdfEAGGbFWHjEFYSmi1H22FPQXXbrVyO76ZmnmEuOSYHhKphmIFg4lmhIaa83jsLvfcTKA7gnnLXTdUJ5Dnzq8BMcgrI4hvvvrTK0WayR6xfR9KgyG6Yllv8MokykEiV94yvnrOWXS1XYRgU1uMPJVr96Sl9idWTReSUygCPOXIvBVL9KpAEVKz3loegEzN6_rwvRMBkK5YkFXSVsP5TbfJO_sABREP9xOOWGTGQ1hxg7SaaWLVmFDrxTzqNqsfY8om-xxohy139jWnJ3Uybw==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9069061156&itemId=26633204237&vendorItemId=93606010753&traceid=V0-153-97fb9bba613b192d&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "더하르나이 시카이드 크림, 100ml, 5개",
+        "price": "79,000원",
+        "desc": "더하르나이 시카이드 크림, 100ml, 5개",
+        "tag": "egf재생크림",
+        "image": "https://ads-partners.coupang.com/image1/Yns-b5C8jl_7aOv_Yr3EsirgvvdWRvRJKq1eJrjZOixmin7k_yvjVeycT1LZQTqqLZ46yMWGiVkCFhKwJPyAbY3kQ8FZWEwpDLxW8UX5pRBrVbZtGidCbOk5mS-FhGNUQbKazve5JhkGeL3z2Y7qwykah6xAIWP9NrNJVc8CBYR-m7LTj6sx-tZlRTH9542KtEr7aVjf7Qdyz29C62wN_oKOAQk8wJAl0o9OVQ3xNniXdcxjIIIgdc8TQggrPmNbjorCxVXe6KiAssptxqAZlXc3xtckyf7FA6s=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7683839795&itemId=27005875152&vendorItemId=93974553579&traceid=V0-153-68727d64e6cc63ba&clickBeacon=80a51aa0-c607-11f0-af8d-ccde0b22ec98%7E3&requestid=20251120205317345174477728&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "새치염색약-2025-11-20",
+    "date": "2025-11-20",
+    "title": "새치염색약 추천 상품 BEST 6",
+    "headline": "새치염색약 가격 비교",
+    "description": "새치염색약 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "율고 자연을 담은 시간 순한 새치 염색샴푸 흑갈색, 5개, 200ml",
+        "price": "113,750원",
+        "desc": "율고 자연을 담은 시간 순한 새치 염색샴푸 흑갈색, 5개, 200ml",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/NCmZBvaV3M8P8scYNNoHmKryi0tm1o7I5zCwP6cYorwGQ8HkbTcgrgtzI-3DFT1ctPV9x3_wz7DEyW5eGHfECULBFFL1-PllfyrfZrRyZuKzW6kBxfVAMWDrxnsSz1JwkypSrUN29HXtj7-GX0goxs70Vk_ABmycYbVCYG-wvVqGTzUAI9K30--y368iHmkxfTeBnQvBaNpcUc1ZYri9b78AcWDEyFwHwgwe3FTuZ6Mt6BEs9QFTCoGpwuaB_BNO6sN3VMqTQr3vuGYMW1YszE3haa8EZNI76qVeIv0-_wTP5yj-_P4=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7167674146&itemId=21017108444&vendorItemId=88080595611&traceid=V0-153-f8950f1d5cc54558&clickBeacon=80f55d80-c607-11f0-b758-8551e9df6423%7E3&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "리엔 흑모비책 새치염색 크림",
+        "price": "9,740원",
+        "desc": "리엔 흑모비책 새치염색 크림",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/xg1tOeKWYKzCXSF7xiujdrPY4TdmTugL3YHwhQ0xQeAhch0SnHs_OuVlIitEthhpxaE8wYdCmHzSyn14lU__nYuY-vSo75P0I8q-T8CgGimCwI0rSX8ixcoHRr_Jg2zHyIpZM4wayrLp4i75J6eJ1_4k32DyRPHumq_4OEFj7E3fqcRszNyJ-yT7RjVNQG8VD84rlOYCrDdLvieEE79jlTLSgA959hdA5h1vY5euQDOCiytgWdnJ8rVpr8g3NVxcLEFDC5pi8S8Kgn67afE47w==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=307154735&itemId=968496630&vendorItemId=88353881190&traceid=V0-153-27cf4436034180e9&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "미쟝센 샤이닝 에센스 새치전용 염색제",
+        "price": "9,340원",
+        "desc": "미쟝센 샤이닝 에센스 새치전용 염색제",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/BIM-FARFXayVJnmsBBQ-FEza-mGqBIa4-MSpVwtkvRoGc0Qkb1wY93dpRM-9_husfgLZQs5vm4FZwxtR-nURWKzwllHUlHt8zPbhBx_WjjbbMXX-y3wAq1u85sPLnRa7JfrA7cNaj4fDsdI0qs9n5_0AguBYJ6ZcYDPJHO8Y54Jv1C5x2njkUvnrBjYMT8DMsBDyW7faGg682RiOPNj8u0HTxwhi9Y2dC6kO4llvXIgGXGmwuvw3AndSKjQeJMMTdzUIuTIFmETW80TFeSAKSUc=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7572758197&itemId=19470996594&vendorItemId=90303239982&traceid=V0-153-4c90db83840ad680&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "[비건라이프] 동성제약 허브 스피디 칼라크림 비건 염모제, 소프트블랙, 9개",
+        "price": "108,000원",
+        "desc": "[비건라이프] 동성제약 허브 스피디 칼라크림 비건 염모제, 소프트블랙, 9개",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/qUtcEM9ijKGVrYCPqQhgUIH7AijxFEuD1IuJRgvuHQIjdTZ4k2OnNdoOjmxKDigXRiZP1ix4-qIHQt42vQ1_ysuBAUVEp-QOVFOUld0-PyQm7liOQXAMpC1oCOHYeKN_OP8WiU2-uNJPLB_b6o-XSlJro3fXe3bCvmFSslJpL6omUfF4kv5m0QLgWQONG3PaK4YfS0VPU5rpA3zUZB1nqquAZAiVBGnN8m7pzwboAFkN3uLeK12PJnlDnaeKfCZ7EMcvQs8ZKyNNyl_OmpRv894zjBFaianz",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7480763695&itemId=25629586269&vendorItemId=92619750735&traceid=V0-153-93710fc70bdf5922&clickBeacon=80f58490-c607-11f0-82a4-247c40f91712%7E3&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "하라즈 프리미엄X 샴푸형 앰플 염색제",
+        "price": "14,990원",
+        "desc": "하라즈 프리미엄X 샴푸형 앰플 염색제",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/9aZBFf5e_pFZ5D6v9QPXatZvGW8f2mPK_eaH3Qz6GzKO1uvfit3w1jZyU8C4YJ-m3MbnMSzKYdgWprikQ93Pd-W9lJK8DQGl-lEB87xvQS_OLGRLPWdbYZHeRcbpxpI4GLhkeRlTCOBqjr0KIo2WOvtWYeK1GGGkm6_K6jxhEQd76DCA8Q-RdXfR_x-tFahfErB994DS1SOphyYrqhWlkfrwFK9RndT1vQpbnpNTTwcQl-pWWT4A1KGmvYI17w301L0hSP1l2SsJmfIyeO8uQAimIwrqhuqt3TwLtfZGAUYd1TJzrSwo_F3FoumcQmpTa8Vx35Bexm8aAGA=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=7418327436&itemId=21318802571&vendorItemId=88378195280&traceid=V0-153-a851a490d7b34b69&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "키라니아 프레스티지 엑스퍼트 셀프퀵 새치 염색약 10p, 밀크브라운, 4개",
+        "price": "103,200원",
+        "desc": "키라니아 프레스티지 엑스퍼트 셀프퀵 새치 염색약 10p, 밀크브라운, 4개",
+        "tag": "새치염색약",
+        "image": "https://ads-partners.coupang.com/image1/lrZSdC6p4n7y6aZ6lkRapBQ7Oe8O-a0kuqFxjLq1PMPP7-s-KScHYGk7A6mmTHhdFS_fKHB2xyLIt7W-_uu9Ly8WwVzcXcgfOpqcEDbR2nmv5XAi-AHJ4G61Evh5Rhx1K6esMkNuzo9TqjfDZe-LSTiL8A3nFJjBZBD8yPXQlwCU26iYpdTRncFyzepZ3mDTLSdj58bKsOx3mw_9FtVQJnC_vIrp9Ja2DwThP9z6_H8ohpyKVy1ItQwt4lqdNUIWVwOGZH8OgwLGQ4YN9SDsZZCDagq9ioKO6ps=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8208004216&itemId=25240808414&vendorItemId=92619751502&traceid=V0-153-1fcfb16d2b966976&clickBeacon=80f58490-c607-11f0-b361-83e0a252c3c2%7E3&requestid=20251120205317894006223828&token=31850C%7CMIXED&landing_exp=APP_LANDING_A"
+      }
+    ]
+  },
+  {
+    "slug": "바이오더마에센스로션B-2025-11-20",
+    "date": "2025-11-20",
+    "title": "바이오더마에센스로션B 추천 상품 BEST 6",
+    "headline": "바이오더마에센스로션B 가격 비교",
+    "description": "바이오더마에센스로션B 관련 인기 상품 6개를 비교하고 최저가 정보를 확인하세요.",
+    "category": "화장품/미용",
+    "products": [
+      {
+        "name": "토리든 다이브인 저분자 히알루론산 세럼",
+        "price": "15,570원",
+        "desc": "토리든 다이브인 저분자 히알루론산 세럼",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/tcsLfDBRNI7OJU-ttc4jOIxIIsYgTNdOqtQJ7yqRvizUnclFrsK-6Jc6PINZPe6tPbyXlFeaZdktcCXd6o1_Pcn2Cbi4FaZ1obzkOzFZDKr9rIiQS6iUNwj3VY-Hv2w70SyNhNHWRoJNW1sJrg5aVmzP2tdEMW6LMQDadSgDj76RMreM67Ta3n9iRJ-1Cfcopant_1prgo0EYXAqBii60SqVEueYmH2R-Y8d6oUdaTuRJN2dvtMngxDykblvkyWLmDUGW3JeAxWh01xLbQJtY3y7W6daVCnvokBAwEpLkeRk",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=6685577070&itemId=22419652098&vendorItemId=94096155750&traceid=V0-153-9ed27ef3739d664f&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "피지오겔 데일리 모이스쳐 테라피 핸드크림",
+        "price": "6,790원",
+        "desc": "피지오겔 데일리 모이스쳐 테라피 핸드크림",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/VbMXEO_mXnw5DiFmVVfLC_znXtMqTIfuvJPkMzdatpVdr3w9Hs1T7KiGHtokb6lhUMT6hZAJy2PTTINm9j-U3KKEwkJnPYQJnB76K3s-2vWFBSbd9BqtXWADZXlNIXWdJIzGdnGSBDDUbVUudz0Fm9YuB3Kmud9cnB0I0UDYek6nzgRPAKask9qZ2TTEqzHVKo7q3QqlDrYtU03HSLYIv_jlu77VWS8mtVZ5aYpxUiAx7_SubjP0xIBBPaADoNiD3yTn2x7tkgPLy3RKSjRV6mE=",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8420658733&itemId=16368524138&vendorItemId=88331944495&traceid=V0-153-0645d92bc4bc75f2&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "더마비 데일리 모이스처 바디 오일",
+        "price": "10,220원",
+        "desc": "더마비 데일리 모이스처 바디 오일",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/aGDhVGlgumMcEUiBaFHFPUPawxaQ7HJBgirPVh0DbbO5iqaZefeCBkHneZUinpXEdYPmUvELOGD4fWICO7bzUkhLOoUYACLaf3odoJV6gsKoHkZzCsye69UKl7GwFl7z8tBUYnu92iVpqk9Tsijj8r0nYWz8DQ3IlTRw-er0Ub7pr_f2hsgELoS2wLePQDxGwuKXTxWoRd3V2bOIRZ53ETiM7X9sWKK20z3HQMTGUOtaQdg8PQeTkxIydve0HpzoHBEDppy1B0kuXC6x9MnsT9liDCtVo6LtPA8MmHm67m4O0qywrSfZj2aP",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=9083990021&itemId=570247&vendorItemId=3000448108&traceid=V0-153-022e6c9b0e7b953a&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "라로슈포제 시카플라스트 멀티 리페어 크림",
+        "price": "36,690원",
+        "desc": "라로슈포제 시카플라스트 멀티 리페어 크림",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/osMwBZH4kYaxvuMyovNQgFkg_6sQ1lSTyOLDd4-ZsbksTWdrVbIRlo81sfboBN1zkzV5_k_0lGrMV0pjp6X11Vm6Bl7Oe96gGiY6vyzw5bYOLATYwUSUIv7056dL1-vjRsxld-f4bYbwN-t1y42ePho2ghB_5saDc3UxcC9fp-edyhBSUc5I0kg56KfjrsEJ21xMjHrbKo3GjwGSHUZ9nX0Npu4jvFmXVpscXL2WgCS2wl9DIDNHXysZ86CaDNVT8H08za8zI3SsAWy-zt9IivOlOmrqnV_MqJY2cXzT83kGXA==",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8636139947&itemId=25058147300&vendorItemId=92062414465&traceid=V0-153-e70852fe62a0d47a&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "피지오겔 데일리 모이스쳐 테라피 핸드크림",
+        "price": "13,080원",
+        "desc": "피지오겔 데일리 모이스쳐 테라피 핸드크림",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/DAnU9Tctu-Q0S-snDDh4CsB6NdiRKk_ni5LL0RF0dKVV9Y26a9kx5-FeBRdS2bzgROJKrZPi8PSw1K7DUObS-ruVq--sia1ZCzKuCnDUQwtE1IG9H5h6xa7sQq4hULA2jLtThppxdMbWWfp4pDeYVJvnZNOVHbjNA7tqt9-6fvFID4xlsaxIZaPYtfKB3meGf6yxOccvovCWdnWjOD3XvzJ2nJOY60EHanLXjhyIq_bphejdsX-O7Mm_la5DEY_z5W6JcHT5OqHhGzchaWlNGIwo",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8420658733&itemId=21401496918&vendorItemId=88458113131&traceid=V0-153-0645d92bc4bc75f2&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      },
+      {
+        "name": "에스트라 아토베리어365 세라히알 수분 앰플",
+        "price": "19,920원",
+        "desc": "에스트라 아토베리어365 세라히알 수분 앰플",
+        "tag": "바이오더마에센스로션B",
+        "image": "https://ads-partners.coupang.com/image1/nCwlw4cEcTAYgcsDnJUxgfqMWSngQ7WTFVbIcHP_UtK0PfJEVEe_sCTMMJTshqNfCOSku4-FXsV9eZt8uss7GLHqUzKgqnL0G7vH-nV4HjaTnFOlH9eG7GKSUAacR9VjGde1xmc3LyfXi5cHJl5YMDmMuzwQNAX_rfFcVWPNr_LzxzenqnxCAlO-u8L6NqCdqf1Ix1VG0dCcYPZV9aBhxiFrx-vsp50XLEIsmv_cXZgZhR7VbFg3ba1XKdrTWwwyX7Vu_MPbisw59hwHAXURXiA7RENpbRK_QrlObfzCFqa4",
+        "link": "https://link.coupang.com/re/AFFSDP?lptag=AF5888934&pageKey=8356372236&itemId=24145711258&vendorItemId=91577529954&traceid=V0-153-a2f244645d4dd4a5&requestid=20251120205318141019389652&token=31850C%7CGM&landing_exp=APP_LANDING_A"
+      }
+    ]
   }
 ]

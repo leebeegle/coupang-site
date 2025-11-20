@@ -644,6 +644,12 @@ a {
     grid-template-columns: 1fr !important;
     gap: 12px;
   }
+
+  /* 🔥 [수정] 모바일에서도 카드를 가로로 정렬 */
+  .post-card {
+    flex-direction: row;
+  }
+
   .product-grid {
     grid-template-columns: 1fr;
     gap: 10px;
